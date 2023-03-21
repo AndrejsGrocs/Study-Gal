@@ -1,0 +1,73 @@
+
+@import "../src/views/NavBar/navbar.scss";
+@import url('../src/views/Landing/landing.scss');
+@import url('../src/views/Page1/page1.scss');
+@import url('../src/views/Page2/page2.scss');
+@import url('../src/views/Page3/page3.scss');
+@import url('../src/views/Footer/footer.scss');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-poppins-light: Poppins-Light;
+  --font-poppins-extrabold: Poppins-ExtraBold;
+  --font-arial: Arial;
+  --font-lato: Lato;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-36xl: 55px;
+  --font-size-5xl: 24px;
+  --font-size-xl: 20px;
+  --font-size-11xs: 2px;
+  --font-size-xs: 12px;
+  --font-size-3xs: 10px;
+  --font-size-10xl: 29px;
+  --font-size-9xs: 4px;
+  --font-size-10xs: 3px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray: #151b27;
+  --color-peachpuff: #fed9bc;
+  --color-lightseagreen: #01b49f;
+  --color-mediumslateblue: #9562e5;
+  --color-tomato: #fe5e5e;
+  --color-orchid: #f179d0;
+
+  /* border radiuses */
+  --br-base: 16px;
+  --br-9xs: 4px;
+  --br-35xl: 54px;
+  --br-5xs: 8px;
+  --br-xl: 20px;
+  --br-mini-2: 14.2px;
+  --br-3xs-4: 9.4px;
+  --br-6xl: 25px;
+  --br-16xl-7: 35.7px;
+  --br-4xl-7: 23.7px;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
