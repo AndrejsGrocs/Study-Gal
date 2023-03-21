@@ -1,7 +1,7 @@
 
 @import "../src/views/NavBar/navbar.scss";
 @import url('../src/views/Landing/landing.scss');
-@import url('../src/views/Page1/page1.scss');
+@import url('../src/views/Instructor/instructor-page.scss');
 @import url('../src/views/Page2/page2.scss');
 @import url('../src/views/Page3/page3.scss');
 @import url('../src/views/Footer/footer.scss');
