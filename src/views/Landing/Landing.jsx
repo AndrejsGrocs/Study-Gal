@@ -1,15 +1,7 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  NavLink,
-  Route,
-  Routes,
-  useNavigate,
-  Link,
-} from "react-router-dom";
+
 import Footer from "../Footer/Footer";
-import InstructorPage from "../Instructor/Instructor-page";
-import Navbar from "../NavBar/Navbar";
+
 
 export default function Landing() {
   return (
