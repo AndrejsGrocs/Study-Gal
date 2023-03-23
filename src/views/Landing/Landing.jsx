@@ -1,6 +1,7 @@
 import React from "react";
 
 import Footer from "../Footer/Footer";
+import Illustartion1 from '../../img/Study Gal Characters1.png'
 
 
 export default function Landing() {
@@ -9,7 +10,17 @@ export default function Landing() {
       <div>
       
         <div className="landing-body">
-          <h1 className="lp-h1">Study Gal Landing</h1>
+        <div className="landing-text-and-button-container">
+        <h1 className="lp-h1">Share your passion and help others to grow</h1>
+          <button className="sign-up-for-free-button">SIGN UP FOR FREE</button>
+
+        </div>
+    
+          <div className="illustration-container">
+          <img className="landing-illustration-1" src={Illustartion1}></img>
+
+          </div>
+          
 
 
 

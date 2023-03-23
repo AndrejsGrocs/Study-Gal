@@ -14,8 +14,45 @@
  
 }
 
+.landing-text-and-button-container{
+    position: relative;
+    top: 20vh;
+    left: 35vw;
+    width: 40%;
+    height: 10%;
+    margin-right: 0 auto;
+
+}
+
 
 .lp-h1{
-    margin-top: 100px; 
-    color: #fff; 
+    position: relative;
+    color: var(--color-peachpuff);
+    font-size: 3.5rem;
+    font-weight: 800;
+  
+
+
 }
+
+.sign-up-for-free-button{
+    position: relative;
+    left: 20vw;
+    width: 170px;
+    height: 40px;
+    background-color: var(--color-lightseagreen);
+    color: var(--color-white);
+    font-size: 1rem;
+}
+
+.illustration-container{
+    position: relative;
+    top: 30vh;
+    right: 30vw;
+}
+
+.landing-illustration-1{
+    position: relative;
+    width: 45vw;
+}
+
