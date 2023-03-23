@@ -11,6 +11,7 @@ export default function Navbar() {
     
     
     <div className='nav'>
+    <div></div>
     <div className='logo-section'>
            <a className='company-logo' href="/" >{<img className='nav-logo-img' src={logoimg} alt='logo'></img>}</a>   
         </div>
@@ -35,10 +36,10 @@ export default function Navbar() {
         {( 
             <>
             
-            <li><Link to='/' activeclassname='active' className='nav-link'> Home</Link></li>
-            <li><Link to='/instructor-dashboard' activeclassname='active' className='nav-link'>Instructor</Link></li>
-            <li><Link to='/login-page' activeclassname='active' className='nav-link'>Login</Link></li>
-            <li><Link to='/signup-page' activeclassname='active' className='nav-link'>Sign Up</Link></li>
+            {/* <li><Link to='/' activeclassname='active' className='nav-link'> Home</Link></li>
+            <li><Link to='/instructor-dashboard' activeclassname='active' className='nav-link'>Instructor</Link></li> */}
+            <button className='landing-btn-login'><Link to='/login-page' activeclassname='active' className='nav-link'>Login</Link></button>
+            <button className='landing-btn-signup'><Link to='/signup-page' activeclassname='active' className='nav-link'>Sign Up</Link></button>
            
         
           
