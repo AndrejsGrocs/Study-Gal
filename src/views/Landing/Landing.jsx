@@ -2,6 +2,8 @@ import React from "react";
 
 import Footer from "../Footer/Footer";
 import Illustartion1 from '../../img/Study Gal Characters1.png'
+import LandingSection2 from "./LandingSection2";
+import LandingSection3 from "./LandingSection3";
 
 
 export default function Landing() {
@@ -20,6 +22,8 @@ export default function Landing() {
           <img className="landing-illustration-1" src={Illustartion1}></img>
 
           </div>
+
+          
           
 
 
@@ -28,6 +32,8 @@ export default function Landing() {
 
 
         </div>
+        <LandingSection2/>
+        <LandingSection3/>
         <div>
           <Footer />
         </div>

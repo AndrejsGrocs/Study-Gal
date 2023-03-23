@@ -2,12 +2,15 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
+
 }
 
 .nav {
   position: relative;
   top: 0;
   width: 100%;
+  margin: 0 auto;
   
   height: 100px;
   display: flex;
@@ -39,6 +42,7 @@
 
 .nav-link {
   text-decoration: none;
+  color: var(--color-gray);
 }
 
 .company-logo {
@@ -56,7 +60,7 @@ li a {
 .nav-logo-img {
   position: relative;
   left: 10vw;
-  width: 200px;
+  width: 250px;
   height: 100px;
 }
 
@@ -88,16 +92,25 @@ li a {
 
 .landing-btn-login {
   background-color: var(--color-peachpuff);
-  width: 100px;
+  width: 120px;
   height: 50px;
   text-decoration: none;
+  
+  
+  font-size: 1rem;
+  border-radius: 10px;
 }
 
 .landing-btn-signup {
   background-color: var(--color-peachpuff);
-  width: 100px;
+  width: 120px;
   height: 50px;
   text-decoration: none;
+
+ 
+  
+  font-size: 1rem;
+  border-radius: 10px;
 }
 
 // Toggle Light/Dark mode
@@ -143,9 +156,10 @@ input[type="checkbox"].switch_1 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  width: 3.5em;
+  width: 4.5em;
   height: 1.5em;
-  background: #ddd;
+  background: var(--color-gray);
+  border: 1px solid #fed9bc ;
   border-radius: 3em;
   position: relative;
   cursor: pointer;
@@ -155,7 +169,7 @@ input[type="checkbox"].switch_1 {
 }
 
 input[type="checkbox"].switch_1:checked {
-  background: #0ebeff;
+  background: var(--color-peachpuff);
 }
 
 input[type="checkbox"].switch_1:after {
@@ -164,7 +178,7 @@ input[type="checkbox"].switch_1:after {
   width: 1.5em;
   height: 1.5em;
   border-radius: 50%;
-  background: #fff;
+  background: var(--color-peachpuff);
   -webkit-box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.3);
   -webkit-transform: scale(0.7);
@@ -176,4 +190,5 @@ input[type="checkbox"].switch_1:after {
 
 input[type="checkbox"].switch_1:checked:after {
   left: calc(100% - 1.5em);
+  background: var(--color-gray);
 }

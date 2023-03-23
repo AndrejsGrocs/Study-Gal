@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.landing-section-3-body {
+  position: relative;
+  top: -1vh;
+  background-color: var(--color-gray);
+  height: 100vh;
+}
+
+.landing-section-3-container{
+    position: relative;
+    top: 10vh;
+}
+
+.lp3-h1 {
+  position: relative;
+  left: 15vw;
+  width: 20vw;
+  font-size: 24px;
+  color: var(--color-tomato);
+}
+
+
+.cards-image{
+    position: relative;
+    left: 13vw;
+}
+
+.store-icons-container{
+    position: relative;
+    top: -80vh;
+    left: 75vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 1vw;
+    text-align: right;
+    
+}
+
+
+.store-icons-h1{
+    color: var(--color-mediumslateblue);
+    width: 10vw;
+    font-size: 24px;
+    font-weight: 900;
+   
+}
+
+.google-play-button-image{
+    position: relative;
+    margin-left: auto;    
+    width: 6vw;
+    z-index: 2;
+
+}
+
+.app-store-button-image{
+
+    position: relative;
+    margin-left: auto;
+    width: 6vw;
+    z-index: 2;
+
+}
+
