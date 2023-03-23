@@ -1,6 +1,8 @@
 
 @import "../src/views/NavBar/navbar.scss";
 @import url('../src/views/Landing/landing.scss');
+@import url('../src/views/Landing/LandingSection2.scss');
+@import url('../src/views/Landing/LandingSection3.scss');
 @import url('../src/views/Instructor/instructor-page.scss');
 @import url('../src/views/Login/login.scss');
 @import url('../src/views/SignUp/signup.scss');

@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.landing-section-2-body {
+  position: relative;
+  top: -1vh;
+  background-color: var(--color-gray);
+  height: 60vh;
+}
+
+.lp2-h1 {
+  position: relative;
+  top: 0;
+  left: 1vw;
+  width: 50vw;
+  color: var(--color-peachpuff);
+  font-size: 3.5rem;
+  font-weight: 800;
+  text-align: right;
+}
+
+.illustration2-container {
+  position: relative;
+  width: 30%;
+  top: 1vh;
+  left: 45vw;
+}
+
+.landing-illustration-2 {
+  position: relative;
+  top: -19vh;
+  width: 41vw;
+}

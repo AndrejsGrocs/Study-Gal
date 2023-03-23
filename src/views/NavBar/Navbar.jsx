@@ -38,8 +38,8 @@ export default function Navbar() {
             
             {/* <li><Link to='/' activeclassname='active' className='nav-link'> Home</Link></li>
             <li><Link to='/instructor-dashboard' activeclassname='active' className='nav-link'>Instructor</Link></li> */}
-            <button className='landing-btn-login'><Link to='/login-page' activeclassname='active' className='nav-link'>Login</Link></button>
-            <button className='landing-btn-signup'><Link to='/signup-page' activeclassname='active' className='nav-link'>Sign Up</Link></button>
+            <button className='landing-btn-login'><Link to='/login-page' activeclassname='active' className='nav-link'>LOGIN</Link></button>
+            <button className='landing-btn-signup'><Link to='/signup-page' activeclassname='active' className='nav-link'>SIGN UP</Link></button>
            
         
           
