@@ -11,7 +11,7 @@ export default function Navbar() {
     
     
     <div className='nav'>
-    <div></div>
+   
     <div className='logo-section'>
            <a className='company-logo' href="/" >{<img className='nav-logo-img' src={logoimg} alt='logo'></img>}</a>   
         </div>
@@ -31,7 +31,7 @@ export default function Navbar() {
       
     </div>
 
-          
+          <div className='navbar-button-section'>
           
         {( 
             <>
@@ -45,6 +45,7 @@ export default function Navbar() {
           
                </>
         )}
+        </div>
 
         
        

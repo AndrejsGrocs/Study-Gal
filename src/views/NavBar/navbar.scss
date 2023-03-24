@@ -2,8 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  
-
 }
 
 .nav {
@@ -11,7 +9,7 @@
   top: 0;
   width: 100%;
   margin: 0 auto;
-  
+
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -24,11 +22,9 @@
   font-weight: 300;
 }
 
-
-
 .nav-list {
   position: relative;
- 
+
   margin: 0 auto;
   background-color: var(--color-gray);
   justify-content: center;
@@ -90,13 +86,17 @@ li a {
   width: 50px;
 }
 
+.navbar-button-section {
+  position: relative;
+  left: 8vw;
+}
+
 .landing-btn-login {
   background-color: var(--color-peachpuff);
   width: 120px;
   height: 50px;
   text-decoration: none;
-  
-  
+
   font-size: 1rem;
   border-radius: 10px;
 }
@@ -106,9 +106,6 @@ li a {
   width: 120px;
   height: 50px;
   text-decoration: none;
-
- 
-  
   font-size: 1rem;
   border-radius: 10px;
 }
@@ -128,9 +125,12 @@ li a {
 }
 
 .switch_box {
+  position: relative;
+  left: 8vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+
   max-width: 200px;
   min-width: 200px;
   height: 200px;
@@ -159,7 +159,7 @@ input[type="checkbox"].switch_1 {
   width: 4.5em;
   height: 1.5em;
   background: var(--color-gray);
-  border: 1px solid #fed9bc ;
+  border: 1px solid #fed9bc;
   border-radius: 3em;
   position: relative;
   cursor: pointer;
