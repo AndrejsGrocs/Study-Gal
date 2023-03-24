@@ -1,16 +1,72 @@
-.page-3-body{
-    background-color: #1686CD;
-    height: 100vh;
+.sign-up-page-body{
+    display: flex;
+    justify-content: column;
+    justify-content: center;
+    background-color: var(--color-gray);
+    height: 150vh;
+
 }
 
-.page-3-body{
-    display: flex;
-    justify-content: row;
-    justify-content: center;
-    margin-top: 100px;
- }
+
 
  .p3-h1{
     margin-top: 100px; 
     color: #fff;
+ }
+
+ .sign-up-form{
+    position: relative;
+    top: 10vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50vw;
+    height: 90%;
+    gap: 10px;
+ }
+
+ .sup-h1{
+    color: var(--color-tomato);
+    font-size: 1rem;
+    margin: 0 auto;
+
+ }
+
+ .form-input{
+    width: 20vw;
+    height: 50px;
+    margin: 0 auto;
+    background-color: var(--color-gray);
+    border: 1px solid var(--color-peachpuff);
+    border-radius: 30px;
+ }
+
+ .btn-send{
+    position: relative;
+    top: 3vh;
+    background-color: var(--color-tomato);
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    margin: 0 auto;
+    font-size: 0.7rem;
+    border-radius: 10px;
+
+ }
+
+ .form-bottom-text{
+    position: relative;
+    top: 3vh;
+    color: var(--color-tomato);
+    font-size: 1rem;
+    margin: 0 auto;
+ }
+
+ .sign-up-page-illustration-container{
+    position: relative;
+    top: 10vh;
+    margin: 0 auto;
+    
+
  }

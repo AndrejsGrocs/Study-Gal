@@ -32,13 +32,13 @@
 
 .store-icons-container{
     position: relative;
-    top: -80vh;
+    top: -71vh;
     left: 75vw;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 1vw;
-    text-align: right;
+    width: 5vw;
+   
     
 }
 
@@ -48,13 +48,15 @@
     width: 10vw;
     font-size: 24px;
     font-weight: 900;
+    text-align: left;
    
 }
 
 .google-play-button-image{
     position: relative;
-    margin-left: auto;    
-    width: 6vw;
+    margin-left: 80px;
+    
+    width: 5vw;
     z-index: 2;
 
 }
@@ -62,8 +64,8 @@
 .app-store-button-image{
 
     position: relative;
-    margin-left: auto;
-    width: 6vw;
+    margin-left: 80px;
+    width: 5vw;
     z-index: 2;
 
 }
