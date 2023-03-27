@@ -2,6 +2,13 @@
 
 .cards-section{
     position: relative;
-    top: 10vh;
+    top: 20vh;
+    right: 1vw;
     border: 1px solid red;
+    width: 50vw;
+    height: 50vh;
+}
+
+.instructor-cards-h1{
+    color: var(--color-lightseagreen);
 }

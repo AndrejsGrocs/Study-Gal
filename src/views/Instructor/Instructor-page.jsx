@@ -1,5 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import InstructorCards from '../../components/InstructorCards/InstructorCards'
+import InstructorNav from '../InstructorNav/InstructorNav'
 
 
 
@@ -12,18 +14,11 @@ export default function InstructorPage() {
     <div className='instructor-page-body'>
      
 
-      <div>
-        <ul className='instructor-page-menu'>
-          <li className='menu-item'>Dashboard</li>
-          <li className='menu-item'>Courses</li> 
-          <li className='menu-item'>Downloadable’s</li> 
-          <li className='menu-item'>Account</li> 
-          <li className='menu-item'>Logout</li>  
-        </ul>
+     <InstructorNav/>
 
 
-      </div>
       <div className='cards-section'>
+      
 
       <InstructorCards/>
       </div>
