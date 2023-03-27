@@ -6,7 +6,7 @@ function InstructorCards() {
 
   return (
     <>
-<h1>Instructor cards</h1>
+<h1 className='instructor-cards-h1'>Instructor cards</h1>
     </>
   )
 }
