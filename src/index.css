@@ -7,7 +7,7 @@
 @import url('../src/views/Login/login.scss');
 @import url('../src/views/SignUp/signup.scss');
 @import url('../src/views/Footer/footer.scss');
-@import url('../src/components/InstructorCards/instructorcards.scss');
+@import url('../src/views/Instructor/instructorcards.scss');
 @import url('../src/views/Courses/courses.scss');
 @import url('../src/components/InstructorCourses/instructorcourses.scss');
 @import url('../src/components/InstructorDownloadables/nstructordownloadables.scss');

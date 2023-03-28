@@ -16,10 +16,7 @@ function InstructorNav() {
 
 
 
-          {/* <li className='menu-item'>Courses</li> 
-          <li className='menu-item'>Downloadable’s</li> 
-          <li className='menu-item'>Account</li> 
-          <li className='menu-item'>Logout</li>   */}
+      
         </ul>
 
 
