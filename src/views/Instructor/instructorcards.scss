@@ -1,0 +1,48 @@
+.cards-section {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  top: 10vh;
+  right: 3vw;
+  width: 50vw;
+  height: 70vh;
+}
+
+.instructor-card {
+  position: relative;
+
+  width: 300px;
+  height: 150px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 13px #0000004d;
+}
+
+.instructor-card-content {
+  position: relative;
+  top: 2vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.instructor-card-title {
+  font-size: 14px;
+  font-weight: 100;
+  color: var(--color-peachpuff);
+  margin: 0 auto;
+}
+
+.instructor-card-amount {
+  font-size: 55px;
+  font-weight: 800;
+  color: var(--color-lightseagreen);
+  margin: 0 auto;
+}
+
+.instructor-card-increase {
+  color: var(--color-mediumslateblue);
+  font-size: 14px;
+  font-weight: 100;
+  margin: 0 auto;
+}
