@@ -3,18 +3,17 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 20px;
+  gap: 15px;
   top: 10vh;
-  right: 3vw;
-  width: 50vw;
-  height: 70vh;
+  right: 1vw;
+  width: 60vw;
+  height: 100vh;
 }
 
 .instructor-card {
   position: relative;
-
-  width: 300px;
-  height: 150px;
+  width: 336px;
+  height: 185px;
   border-radius: 30px;
   box-shadow: 10px 10px 13px #0000004d;
 }
@@ -46,3 +45,106 @@
   font-weight: 100;
   margin: 0 auto;
 }
+
+.additional-card-1{
+  position: relative;
+  top: 20px;
+  width: 336px;
+  height: 185px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 13px #0000004d;
+
+}
+
+.additional-card-1-img{
+  position: relative;
+  top: -2vh;
+  right: 1vw;
+  height: 200px;
+}
+
+.add-card-1-store-icons-container{
+  position: relative;
+  top: -170px;
+  left: 170px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 5vw;
+  z-index: 3;
+
+}
+
+.add-card-1-store-icons-h1{
+  position: relative;
+  left: 30px;
+  color: var(--color-mediumslateblue);
+  width: 10vw;
+  font-size: 16px;
+  font-weight: 200;
+  text-align: left;
+
+}
+
+.add-card-1-google-play-button-image{
+  position: relative;
+  left: 30px;
+  width: 4.5vw;
+  z-index: 2;
+
+}
+
+.add-card-1-app-store-button-image{
+  position: relative;
+  left: 30px;
+  width: 4.5vw;
+  z-index: 2;
+
+}
+
+
+.additional-card-2{
+  position: relative;
+  top: 10px;
+  width: 336px;
+  height: 185px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 13px #0000004d;
+  text-align: center;
+
+}
+
+.add-card-2-p-1{
+  position: relative;
+  top: 2vh;
+  width: 80%;
+  font-size: 14px;
+  color: var(--color-peachpuff);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.add-card-2-p-2{
+  position: relative;
+  top: 3vh;
+  width: 80%;
+  font-size: 14px;
+  color: var(--color-peachpuff);
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.add-card-2-btn{
+  position: relative;
+  top: 4.5vh;
+  width: 172px;
+  height: 41px;
+  color: var(--color-white);
+  background-color: var(--color-lightseagreen);
+  border-radius: 10px;
+  
+
+}
+
+
