@@ -3,7 +3,7 @@
     justify-content: row;
     justify-content: center;
     background-color: var(--color-gray);
-    height: 100vh;
+    height: 120vh;
 }
 
 
@@ -19,7 +19,7 @@
 .instructor-page-menu{
     position: relative;
     top: 10vh;
-    right: 10vw;
+    right: -1vw;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -36,6 +36,8 @@
     color: var(--color-peachpuff);
     cursor: pointer;
 }
+
+
 
 
 
