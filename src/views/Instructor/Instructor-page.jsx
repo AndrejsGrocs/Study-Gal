@@ -2,12 +2,17 @@ import React from "react";
 import InstructorNav from "../InstructorNav/InstructorNav";
 import InstructorCards from "../../views/Instructor/InstructorCards";
 import data from "../../components/Data/Data";
+import userslist from "../../components/Data/UserlistData";
 import MobileDeviceImg from "../../img/mdevice_pic.png";
 import GooglePlay from "../../img/Google Play.svg";
 import AppStore from "../../img/App Store.svg";
+import InstructorUserlistCard from "./InstructorUserlistCard";
+import InstructorUserListComponent from "./InstructorUserListComponent";
 
 export default function InstructorPage() {
-  const { instructorData } = data;
+  const { instructorData, users } = data;
+  
+  const {  usersList} = userslist;
 
   return (
     <div className="instructor-page-body">
@@ -17,6 +22,25 @@ export default function InstructorPage() {
         {instructorData.map((idata) => (
           <InstructorCards key={idata.id} idata={idata} />
         ))}
+
+        
+
+   
+        <div className="additional-card-0">
+          
+
+          <div className="additional-card-0-content">
+          <h1 className="instructor-card-title">Recent Subscribers</h1>
+          <InstructorUserListComponent />
+      
+          </div>
+        </div>
+
+            
+
+            
+
+
 
         <div className="additional-cards">
           <div className="additional-card-1">
@@ -34,9 +58,8 @@ export default function InstructorPage() {
               ></img>
             </div>
           </div>
-        </div>
 
-        <div className="additional-card-2">
+          <div className="additional-card-2">
           
 
           <div className="add-card-2-content">
@@ -46,6 +69,11 @@ export default function InstructorPage() {
       
           </div>
         </div>
+
+
+        </div>
+
+
       </div>
     </div>
   );
