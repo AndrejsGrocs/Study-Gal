@@ -1,0 +1,35 @@
+
+
+.userlist-card-content{
+    position: relative;
+    top: 20px;
+    left: 1vw;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 400px;
+    text-align: right;
+ 
+}
+
+.students-name{
+    font-size: 14px;
+    font-weight: 100;
+    color: var(--color-lightseagreen);
+    width: 150px;
+ 
+
+}
+
+.students-subscription{
+    position: relative;
+    right: 50px;
+
+    font-size: 14px;
+    font-weight: 100;
+    color: var(--color-peachpuff);
+    width: 100px;
+ 
+
+}
+

@@ -1,6 +1,9 @@
 import React from "react";
 
 function InstructorCards(props) {
+
+
+
   const { idata } = props;
 
   function log() {
@@ -17,9 +20,27 @@ function InstructorCards(props) {
         <p className="instructor-card-amount" >{idata.amount}</p>
         <p className="instructor-card-increase" >{idata.increase} % last month</p>
 
+        
+
+        <div>
+          
+
+
+
+
+        </div>
+
+
+        
+        
+        
+
+
         <div>{/* <button onClick={() => onAdd(product)}>Add</button> */}</div>
       </div>
       </div>
+
+      
     </>
   );
 }
