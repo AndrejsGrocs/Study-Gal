@@ -5,8 +5,18 @@
 # Study Gal.
 
 
-```
-Created using React, Adobe XD and Locofy.
+The project is designed by [Natalia Maca](https://nataliamaca.com/) using Adobe XD.
 
 ```
+This project is the frontend version of the educational platform,
+with the account review and statistics to the Teachers which are posted 
+their courses on the platform.
+
+After the frontend implementation phase, the server and backend also will be created.
+
+
+The project is extracted to React project from Adobe XD using the Locofy technology.
+
+```
+
 
