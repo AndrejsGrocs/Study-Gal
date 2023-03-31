@@ -2,7 +2,7 @@ const courserData = {
     courses: [
       {
         id: "1",
-        img_src: ".src/img/course_pic1.png",
+        img_src: "./img/course_pic1.png",
         title: "1. DESIGN PRINCIPLES FOR ILLUSTRATORS",
       
       },
