@@ -4,6 +4,69 @@
   box-sizing: border-box;
 }
 
+
+/* Nav Light And Dark Mode */
+
+#light .nav {
+  background-color: var(--color-peachpuff);
+}
+
+#dark .nav {
+  background-color: var(--color-gray);
+}
+
+#light .nav-list {
+  background-color: var(--color-peachpuff);
+}
+
+#dark .nav-list {
+  background-color: var(--color-gray);
+}
+
+#light .box_1 {
+  background-color: var(--color-peachpuff);
+}
+
+#dark .box_1 {
+  background-color: var(--color-gray);
+}
+
+#light .landing-btn-login {
+  background-color: var(--color-gray);
+  color: var(--color-peachpuff);
+}
+
+#dark .landing-btn-login {
+  background-color: var(--color-peachpuff);
+}
+
+#light .landing-btn-signup {
+  background-color: var(--color-gray);
+}
+
+#dark .landing-btn-signup {
+  background-color: var(--color-peachpuff);
+}
+
+#light .nav-link {
+  color: var(--color-peachpuff);
+}
+
+#dark .nav-link {
+  color: var(--color-gray);
+}
+
+
+#light .logo-section {
+  background-color: var(--color-peachpuff);
+  
+}
+
+#dark .logo-section {
+  background-color: var(--color-gray);
+  
+}
+
 .nav {
   position: relative;
   top: 0;
@@ -21,6 +84,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 300;
 }
+
 
 .nav-list {
   position: relative;
@@ -133,7 +197,7 @@ li a {
 
   max-width: 200px;
   min-width: 200px;
-  height: 200px;
+  height: 100px;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -170,6 +234,7 @@ input[type="checkbox"].switch_1 {
 
 input[type="checkbox"].switch_1:checked {
   background: var(--color-peachpuff);
+  border: 1px solid var(--color-gray);
 }
 
 input[type="checkbox"].switch_1:after {
