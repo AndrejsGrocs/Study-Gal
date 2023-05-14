@@ -9,12 +9,17 @@
 
 
 .landing-body{
-    background-color: var(--color-gray);
+   
     height: 105vh;
 }
 
+#light{
+    background-color: var(--color-peachpuff);
+}
 
-
+#dark{
+    background-color: var(--color-gray);
+  }
 
 
 .landing-body{
@@ -39,12 +44,17 @@
 
 .lp-h1{
     position: relative;
-    color: var(--color-peachpuff);
+    
     font-size: 3.5rem;
     font-weight: 800;
-  
+}
 
+#light .lp-h1{
+    color: var(--color-tomato);
+}
 
+#dark .lp-h1{
+    color: var(--color-peachpuff);
 }
 
 .sign-up-for-free-button{

@@ -7,8 +7,16 @@
 .landing-section-2-body {
   position: relative;
   top: -1vh;
-  background-color: var(--color-gray);
+
   height: 60vh;
+}
+
+#light{
+  background-color: var(--color-peachpuff);
+}
+
+#dark{
+  background-color: var(--color-gray);
 }
 
 .lp2-h1 {

@@ -7,8 +7,17 @@
 .landing-section-3-body {
   position: relative;
   top: -1vh;
-  background-color: var(--color-gray);
+ 
   height: 100vh;
+}
+
+#light{
+  background-color: var(--color-peachpuff);
+  color: var(--color-tomato);
+}
+
+#dark{
+  background-color: var(--color-gray);
 }
 
 .landing-section-3-container{
