@@ -7,6 +7,22 @@
 
 }
 
+#light .sign-up-page-body {
+   background-color: var(--color-peachpuff);
+ }
+ 
+ #dark .sign-up-page-body {
+   background-color: var(--color-gray);
+ }
+
+ #light .form-input{
+   background-color: var(--color-peachpuff);
+   border: 1px solid var(--color-gray);
+ }
+ 
+ #dark .form-input {
+   background-color: var(--color-gray);
+ }
 
 
  .p3-h1{

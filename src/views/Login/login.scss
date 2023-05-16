@@ -1,45 +1,71 @@
-.login-page-body{
-    display: flex;
-    justify-content: row;
-    justify-content: center;
+.login-page-body {
+  display: flex;
+  justify-content: row;
+  justify-content: center;
+  background-color: var(--color-gray);
+  height: 100vh;
+}
 
-    background-color: var(--color-gray);
-    height: 100vh;
+#light .login-page-body {
+  background-color: var(--color-peachpuff);
+}
+
+#dark .login-page-body {
+  background-color: var(--color-gray);
 }
 
 
-
- .logp-h1{
-    position: relative;
-    top: -1vh;
-    color: var(--color-mediumslateblue);
-    font-size: 1rem;
-    margin: 0 auto;
+#light .form-input::placeholder {
+   color: var(--color-gray);
+ }
+ 
+ #dark .form-input::placeholder {
+   color: var(--color-peachpuff);
  }
 
- .login-form{
-    position: relative;
-    top: 10vh;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 50vw;
-    height: 90%;
-    gap: 10px;
+ /* For date placeholder*/
 
+ #light .form-input {
+   color: var(--color-gray);
+ }
+ 
+ #dark .form-input {
+   color: var(--color-peachpuff);
  }
 
+.logp-h1 {
+  position: relative;
+  top: -1vh;
+  color: var(--color-mediumslateblue);
+  font-size: 1rem;
+  margin: 0 auto;
+}
 
- .btn-login{
-    position: relative;
-    top: 3vh;
-    background-color: var(--color-mediumslateblue);
-    color: #fff;
-    width: 200px;
-    height: 50px;
-    text-decoration: none;
-    margin: 0 auto;
-    font-size: 0.7rem;
-    border-radius: 10px;
+.login-form {
+  position: relative;
+  top: 10vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 50vw;
+  height: 90%;
+  gap: 10px;
+  
+}
 
- }
+.form-input {
+   color: red;
+}
+
+.btn-login {
+  position: relative;
+  top: 3vh;
+  background-color: var(--color-mediumslateblue);
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  text-decoration: none;
+  margin: 0 auto;
+  font-size: 0.7rem;
+  border-radius: 10px;
+}
