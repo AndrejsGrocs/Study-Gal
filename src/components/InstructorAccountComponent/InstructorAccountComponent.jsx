@@ -1,8 +1,19 @@
 import React from 'react'
+import instrmaindata from "../../components/Data/InstructorMainData";
+import InstructorAccountCards from './InstructorAccountCards';
 
 function InstructorAccountComponent() {
+
+  const { instructor_main_data } = instrmaindata;
   return (
-    <h1 className='instructor-account-h1'>Instructor Account</h1>
+    <>
+    
+    {instructor_main_data.map((isntdata) => (
+          <InstructorAccountCards key={isntdata.id} isntdata={isntdata} />
+        ))}
+
+    
+    </>
   )
 }
 

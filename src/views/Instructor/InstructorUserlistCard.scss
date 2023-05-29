@@ -24,12 +24,16 @@
 .students-subscription{
     position: relative;
     right: 50px;
-
     font-size: 14px;
     font-weight: 100;
     color: var(--color-peachpuff);
     width: 100px;
  
+
+}
+
+#light .students-subscription{
+    color: var(--color-gray);
 
 }
 
