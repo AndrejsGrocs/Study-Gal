@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logoimg from "../../img/logo.svg";
+import logoimgLight from "../../img/logolight.svg";
 import instalogo from "../../img/instagram-logo.png";
 import toggleTheme from '../../App'
 import theme from '../../App'
@@ -15,6 +16,7 @@ export default function Navbar(props) {
         <div className="logo-section">
           <a className="company-logo" href="/">
             {<img className="nav-logo-img" src={logoimg} alt="logo"></img>}
+            {<img className="nav-logo-img-light" src={logoimgLight} alt="logo"></img>}
           </a>
         </div>
         <ul className="nav-list">
