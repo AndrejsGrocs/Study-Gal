@@ -80,3 +80,16 @@
     width: 41vw;
 }
 
+.landing-illustration-1-light{
+    position: relative;
+    width: 41vw;
+}
+
+#light .landing-illustration-1{
+    display: none;
+}
+
+#dark .landing-illustration-1-light{
+    display: none;
+}
+

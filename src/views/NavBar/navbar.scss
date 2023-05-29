@@ -105,9 +105,7 @@
   color: var(--color-gray);
 }
 
-.company-logo {
-  background-color: var(--color-gray);
-}
+
 
 li a {
   font-size: 20px;
@@ -122,6 +120,22 @@ li a {
   left: 10vw;
   width: 250px;
   height: 100px;
+}
+
+.nav-logo-img-light{
+  position: relative;
+  left: 10vw;
+  width: 250px;
+  height: 100px;
+
+}
+
+#dark .nav-logo-img-light{
+  display: none;
+}
+
+#light .nav-logo-img{
+  display: none;
 }
 
 .logo-section {

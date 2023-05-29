@@ -2,6 +2,7 @@ import React from "react";
 
 import Footer from "../Footer/Footer";
 import Illustartion1 from '../../img/Study Gal Characters1.png'
+import IllustartionLight from '../../img/study-image.png'
 import LandingSection2 from "./LandingSection2";
 import LandingSection3 from "./LandingSection3";
 
@@ -23,6 +24,7 @@ export default function Landing(props) {
     
           <div className="illustration-container">
           <img className="landing-illustration-1" src={Illustartion1}></img>
+          <img className="landing-illustration-1-light" src={IllustartionLight}></img>
 
           </div>
 
