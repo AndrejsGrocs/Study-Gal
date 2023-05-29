@@ -1,5 +1,6 @@
 import React, {useState, useRef} from 'react'
 import Illustartion1 from '../../img/Study Gal Characters1.png'
+import IllustartionLight from '../../img/study-image.png'
 
 
 export default function SignUp() {
@@ -31,6 +32,7 @@ export default function SignUp() {
         <p className='form-bottom-text'>Already have an account? Login</p>
         <div className="sign-up-page-illustration-container">
           <img className="landing-illustration-1" src={Illustartion1}></img>
+          <img className="landing-illustration-1-light" src={IllustartionLight}></img>
 
           </div>
        
