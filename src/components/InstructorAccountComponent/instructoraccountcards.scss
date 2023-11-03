@@ -1,0 +1,89 @@
+
+
+.instructor-card1{
+    position: relative;
+
+    text-align: center;
+    height: 10vh;
+    
+   
+}
+
+.instructor-personal-account-data-cards{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 auto;
+    gap: 15px;
+    top: 4vh;
+    width: 60vw;
+    height: 20vh;
+    
+    
+}
+
+.instructor-account-avatar{
+    position: relative;
+    top: -3vh;
+    width: 10vw;
+    margin: 0 auto;
+    box-shadow: 10px 10px 13px #0000004d;
+    border-radius: 50%;
+}
+
+
+
+.instructor-account-card {
+    
+    position: relative;
+    width: 336px;
+    height: 185px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 13px #0000004d;
+  }
+
+  .instructor-card-skills{
+    position: relative;
+    top: 2vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    width: 20%;
+    margin: 0 auto;
+    color: var(--color-lightseagreen);
+    font-weight: 800;
+    text-align: center;
+  }
+
+  .instructor-personal-account-card{
+    position: relative;
+    top: 3vh;
+    font-size: 55px;
+    font-weight: 800;
+    color: var(--color-lightseagreen);
+    margin: 0 auto;
+
+  }
+
+  .instructor-card-title{
+    position: relative;
+  
+    font-size: 14px;
+    font-weight: 100;
+    color: var(--color-peachpuff);
+    margin: 0 auto;
+
+  }
+  .d{
+    position: relative;
+    top: 1.5vh;
+  }
+
+  .di{
+    position: relative;
+    top: -3vh;
+
+  }
+
+
