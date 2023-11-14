@@ -1,7 +1,10 @@
 import React from 'react'
 import CardsImage from '../../img/Group 449.png'
-import GooglePlay from '../../img/Google Play.svg'
-import AppStore from '../../img/App Store.svg'
+import CardsImageLight from '../../img/Group 505.png'
+import GooglePlayDark from '../../img/Google Play.png'
+import GooglePlayLight from '../../img/google-play.png'
+import AppStoreDark from '../../img/App Store.png'
+import AppStoreLight from '../../img/app-tore.png'
 
 function LandingSection3() {
   return (
@@ -13,6 +16,7 @@ function LandingSection3() {
    
    <div className="cards-image-container">
 <img className="cards-image" src={CardsImage}></img>
+<img className="cards-image-light" src={CardsImageLight}></img>
 
 
 
@@ -20,8 +24,10 @@ function LandingSection3() {
         </div>
         <div className='store-icons-container'>
         <h1 className='store-icons-h1'>Download App</h1>
-<img className="google-play-button-image" src={GooglePlay}></img>
-<img className="app-store-button-image" src={AppStore}></img>
+<img className="google-play-button-image" src={GooglePlayDark}></img>
+<img className="google-play-button-image-light" src={GooglePlayLight}></img>
+<img className="app-store-button-image" src={AppStoreDark}></img>
+<img className="app-store-button-image-light" src={AppStoreLight}></img>
 
 </div>
         
