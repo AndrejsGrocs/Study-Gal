@@ -29,12 +29,6 @@ export default function Landing(props) {
           </div>
 
           
-          s
-
-
-
-          
-
 
         </div>
         <LandingSection2/>
