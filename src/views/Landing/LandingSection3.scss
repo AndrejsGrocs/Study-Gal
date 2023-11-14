@@ -7,22 +7,22 @@
 .landing-section-3-body {
   position: relative;
   top: -1vh;
- 
+
   height: 100vh;
 }
 
-#light{
+#light {
   background-color: var(--color-peachpuff);
   color: var(--color-tomato);
 }
 
-#dark{
+#dark {
   background-color: var(--color-gray);
 }
 
-.landing-section-3-container{
-    position: relative;
-    top: 10vh;
+.landing-section-3-container {
+  position: relative;
+  top: 10vh;
 }
 
 .lp3-h1 {
@@ -33,49 +33,82 @@
   color: var(--color-tomato);
 }
 
-
-.cards-image{
-    position: relative;
-    left: 13vw;
+.cards-image {
+  position: relative;
+  left: 13vw;
 }
 
-.store-icons-container{
-    position: relative;
-    top: -700px;
-    left: 1430px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 5vw;
-   
-    
+#light .cards-image {
+  display: none;
 }
 
-
-.store-icons-h1{
-    color: var(--color-mediumslateblue);
-    width: 10vw;
-    font-size: 24px;
-    font-weight: 900;
-    text-align: left;
-   
+#light .cards-image-light {
+  position: relative;
+  left: 13vw;
 }
 
-.google-play-button-image{
-    position: relative;
-    margin-left: 80px;
-    
-    width: 5vw;
-    z-index: 2;
-
+#dark .cards-image-light {
+  display: none;
 }
 
-.app-store-button-image{
-
-    position: relative;
-    margin-left: 80px;
-    width: 5vw;
-    z-index: 2;
-
+.store-icons-container {
+  position: relative;
+  top: -700px;
+  left: 1430px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 5vw;
 }
 
+.store-icons-h1 {
+  color: var(--color-mediumslateblue);
+  width: 10vw;
+  font-size: 24px;
+  font-weight: 900;
+  text-align: left;
+}
+
+.google-play-button-image {
+  position: relative;
+  margin-left: 80px;
+  width: 5vw;
+  z-index: 2;
+}
+
+.google-play-button-image-light {
+  position: relative;
+  margin-left: 80px;
+  width: 5vw;
+  z-index: 2;
+}
+
+#light .google-play-button-image {
+  display: none;
+}
+
+#dark .google-play-button-image-light {
+  display: none;
+}
+
+.app-store-button-image {
+  position: relative;
+  margin-left: 80px;
+  width: 5vw;
+  z-index: 2;
+}
+
+.app-store-button-image-light {
+  position: relative;
+  margin-left: 80px;
+  width: 5vw;
+  z-index: 2;
+}
+
+#light .app-store-button-image {
+  display: none;
+}
+
+#dark .app-store-button-image-light {
+  display: none;
+}
