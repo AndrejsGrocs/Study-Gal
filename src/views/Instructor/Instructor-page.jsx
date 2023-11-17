@@ -4,8 +4,10 @@ import InstructorCards from "../../views/Instructor/InstructorCards";
 import data from "../../components/Data/Data";
 import userslist from "../../components/Data/UserlistData";
 import MobileDeviceImg from "../../img/mdevice_pic.png";
-import GooglePlay from "../../img/Google Play.svg";
-import AppStore from "../../img/App Store.svg";
+import GooglePlayDark from '../../img/Google Play.png'
+import GooglePlayLight from '../../img/google-play.png'
+import AppStoreDark from '../../img/App Store.png'
+import AppStoreLight from '../../img/app-tore.png'
 import InstructorUserlistCard from "./InstructorUserlistCard";
 import InstructorUserListComponent from "./InstructorUserListComponent";
 
@@ -49,12 +51,21 @@ export default function InstructorPage() {
             <div className="add-card-1-store-icons-container">
               <h1 className="add-card-1-store-icons-h1">Download App</h1>
               <img
-                className="add-card-1-google-play-button-image"
-                src={GooglePlay}
+                className="add-card-1-google-play-button-image-dark icon-card-position"
+                src={GooglePlayDark}
               ></img>
               <img
-                className="add-card-1-app-store-button-image"
-                src={AppStore}
+                className="add-card-1-app-store-button-image-dark icon-card-position"
+                src={AppStoreDark}
+              ></img>
+
+<img
+                className="add-card-1-google-play-button-image-light icon-card-position"
+                src={GooglePlayLight}
+              ></img>
+              <img
+                className="add-card-1-app-store-button-image-light icon-card-position"
+                src={AppStoreLight}
               ></img>
             </div>
           </div>
