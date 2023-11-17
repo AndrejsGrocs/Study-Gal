@@ -18,6 +18,7 @@
 @import url('../src/views/InstructorNav/InstructorNav.scss');
 @import url('../src/components/InstructorAccountComponent/instructoraccountcards.scss');
 @import url('../src/components/InstructorCourses/instructorcoursescards.scss');
+@import url('../src/components/InstructorDownloadables/nstructordownloadablescards.scss');
 
 
 

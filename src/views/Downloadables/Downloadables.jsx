@@ -1,5 +1,5 @@
 import React from 'react'
-import InstructorDownloadables from '../../components/InstructorDownloadables/InstructorDownloadables'
+import InstructorDownloadablesComponent from '../../components/InstructorDownloadables/InstructorDownloadablesComponent'
 import InstructorNav from '../InstructorNav/InstructorNav'
 
 
@@ -12,7 +12,7 @@ function Downloadables() {
     <div className='cards-section'>
   
 
-  <InstructorDownloadables/>
+  <InstructorDownloadablesComponent/>
   </div>
 </div>
   )
