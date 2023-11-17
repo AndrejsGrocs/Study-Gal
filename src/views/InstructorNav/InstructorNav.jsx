@@ -12,7 +12,7 @@ function InstructorNav() {
           <li ><Link to='/courses' className='menu-item' activeclassname='active'>Courses</Link></li>
           <li ><Link to='/downloadable' className='menu-item' activeclassname='active'>Downloadable’s</Link></li>
           <li ><Link to='/account' className='menu-item' activeclassname='active'>Account</Link></li>
-          <li ><Link to='/courses' className='menu-item' activeclassname='active'>Logout</Link></li>
+          <li ><Link to='/' className='menu-item' activeclassname='active'>Logout</Link></li>
 
 
 
