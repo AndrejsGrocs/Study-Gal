@@ -9,7 +9,6 @@
 @import url('../src/views/Footer/footer.scss');
 @import url('../src/views/Instructor/instructorcards.scss');
 @import url('../src/views/Courses/courses.scss');
-@import url('../src/views/Courses/instructorcards.scss');
 @import url('../src/components/InstructorDownloadables/nstructordownloadables.scss');
 @import url('../src/components/InstructorAccountComponent/instructoraccountcomponent.scss');
 @import url('../src/views/Downloadables/downloadables.scss');
@@ -18,6 +17,8 @@
 @import url('../src/views/Instructor/InstructorUserListComponent.scss');
 @import url('../src/views/InstructorNav/InstructorNav.scss');
 @import url('../src/components/InstructorAccountComponent/instructoraccountcards.scss');
+@import url('../src/components/InstructorCourses/instructorcoursescards.scss');
+
 
 
 
