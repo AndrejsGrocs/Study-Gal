@@ -1,12 +1,12 @@
 import React from 'react'
 import InstructorNav from '../InstructorNav/InstructorNav'
-import coursesData from "../../components/Data/CoursesData";
-import InstructorCoursesCards from '../../components/InstructorCourses/InstructorCoursesCards';
+import InstructorCoursesComponent from '../../components/InstructorCourses/InstructorCoursesComponent'
+
 
 function Courses() {
 
 
-  const { cdata } = coursesData;
+
   return (
     <div className='courses-page-body'>
         
@@ -16,7 +16,7 @@ function Courses() {
       
       
 
-      <InstructorCoursesCards/>
+      <InstructorCoursesComponent/>
       </div>
     </div>
   )

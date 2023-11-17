@@ -4,15 +4,15 @@ function InstructorCoursesCards(props) {
   const { icdata } = props;
   return (
     <>
-      <h1 className="instructor-courses-h1">Instructor Courses111</h1>
+     
       <div className="instructor-card1">
         <div className="instructor-card-content">
           <img
-            className="instructor-account-avatar"
-            // src={icdata.img_src}
+            className="instructor-courses-img"
+            src={icdata.img_src1}
             alt="instructor-account-avatar-image"
           ></img>
-          {/* <h2 className="instructor-card-title di">{icdata.title}</h2> */}
+          <h2 className="instructor-card-title di">{icdata.title}</h2>
        
               </div>
             </div>
