@@ -127,6 +127,14 @@
 
 }
 
+.icon-card-position{
+  position: relative;
+  left: 30px;
+  width: 4.5vw;
+  z-index: 2;
+
+}
+
 
 .additional-card-2{
   position: relative;
@@ -170,6 +178,22 @@
   border-radius: 10px;
   
 
+}
+
+#dark .add-card-1-google-play-button-image{
+    display: none;
+}
+
+#dark .add-card-1-app-store-button-image{
+    display: none;
+}
+
+#light .add-card-1-google-play-button-image-dark{
+    display: none;
+}
+
+#light .add-card-1-app-store-button-image-dark{
+    display: none;
 }
 
 
