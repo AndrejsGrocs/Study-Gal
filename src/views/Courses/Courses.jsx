@@ -1,7 +1,7 @@
 import React from 'react'
 import InstructorNav from '../InstructorNav/InstructorNav'
 import coursesData from "../../components/Data/CoursesData";
-import InstructorCoursesCards from './InstructorCoursesCards';
+import InstructorCoursesCards from '../../components/InstructorCourses/InstructorCoursesCards';
 
 function Courses() {
 
@@ -14,9 +14,7 @@ function Courses() {
 
         <div className='cards-section'>
       
-        {/* {cdata.map((icdata) => (
-          <InstructorCoursesCards key={icdata.id} icdata={icdata} />
-        ))} */}
+      
 
       <InstructorCoursesCards/>
       </div>
