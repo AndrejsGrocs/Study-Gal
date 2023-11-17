@@ -3,12 +3,12 @@ import instrcoursesdata from "../../components/Data/CoursesData";
 import InstructorCoursesCards from './InstructorCoursesCards';
 
 function InstructorCoursesComponent() {
-    const {instructor_courses_data} = instrcoursesdata
+    const {courses} = instrcoursesdata
   return (
     <>
-    <div>InstructorCoursesComponent</div>
 
-    {instructor_courses_data.map((icdata) =>(
+
+    {courses.map((icdata) =>(
         <InstructorCoursesCards key={icdata.id} icdata={icdata}/>
     ))}
 
