@@ -7,10 +7,12 @@ function InstructorDownloadablesComponent() {
   const {downloadables} = instrdownloadablesdata
   return (
    <>
+   <div className='instructor-courses-cards-container'>
 
     {downloadables.map((iddata) =>(
       <InstructorDownloadablesCards key={iddata.id} iddata={iddata}/>
   ))}
+  </div>
   </>
   )
 }
