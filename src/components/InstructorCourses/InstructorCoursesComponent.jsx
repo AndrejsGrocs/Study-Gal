@@ -7,10 +7,11 @@ function InstructorCoursesComponent() {
   return (
     <>
 
-
+    <div className='instructor-courses-cards-container'>
     {courses.map((icdata) =>(
         <InstructorCoursesCards key={icdata.id} icdata={icdata}/>
     ))}
+    </div>
 
     </>
    
