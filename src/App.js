@@ -12,6 +12,11 @@ function App() {
     setTheme((curr) => (curr === "light" ? "dark" : "light"));
   };
 
+
+  function Delete() {
+   
+    };
+
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div className="App" id={theme}>

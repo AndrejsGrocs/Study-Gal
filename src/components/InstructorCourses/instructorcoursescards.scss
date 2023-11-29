@@ -1,16 +1,102 @@
+.instructor-courses-card {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 200px;
+ 
+  
 
-
-
-
-.instructor-courses-h1{
-    color: var(--color-mediumslateblue);
+  border-radius: 20px;
 }
 
-.instructor-courses-img{
-  width: 17vw;
+.instructor-courses-card:hover {
+  bottom: 5px;
+  background-color: var(--color-peachpuff);
+  color: black;
+  .instructor-courses-card-title{
+    color: var(--color-gray);
+  }
+  .update-button{
+    background-color: var(--color-peachpuff);
+    color: var(--color-gray);
+    border: 1px solid var(--color-gray);
+  }
+  .update-button:hover{
+   
+    color: var(--color-lightseagreen);
+    border: 1px solid var(--color-lightseagreen);
+  }
+  
 
 }
 
-.instructor-courses-card-title{
+.instructor-courses-card-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.instructor-courses-h1 {
+  color: var(--color-mediumslateblue);
+}
+
+.instructor-courses-img {
+  height: 200px;
+  padding: 10px;
+}
+
+
+.instructor-courses-card-title {
   color: var(--color-peachpuff);
+  width: 45%;
+}
+
+.update-button {
+  position: relative;
+  margin: 0 auto;
+  color: var(--color-peachpuff);
+  background-color: var(--color-gray);
+  border: 1px solid var(--color-peachpuff);
+  height: 50px;
+  border-radius: 30px;
+  width: 100px;
+}
+
+.update-button:hover,
+.update-button:focus {
+  border-color: var(--color-lightseagreen);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: var(--color-lightseagreen);
+}
+
+.update-button:active {
+  background-color: var(--color-peachpuff);
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.courses-cards-buttons {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+ 
+  align-items: center;
+  position: relative;
+  width: 25%;
+
+  gap: 20px;
+}
+
+.delete_button {
+  position: relative;
+  right: 3vw;
+  width: 35px;
+  padding: 3px;
+}
+
+.delete_button:hover {
+  padding: 1px;
 }
