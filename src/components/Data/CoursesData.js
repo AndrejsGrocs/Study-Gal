@@ -14,37 +14,37 @@ const courserData = {
       {
         id: "3",
         img_src1: "./img1/Study Gal Courses Images/courses-img3.png",
-        title: "2. CHARACTER DESIGN",
+        title: "3. PORTFOLIO DEVELOPMENT FOR ILLUSTRATORS",
       },
       {
         id: "4",
         img_src1: "./img1/Study Gal Courses Images/courses-img4.png",
-        title: "2. CHARACTER DESIGN",
+        title: "4. COLOUR THEORY",
       },
       {
         id: "5",
         img_src1: "./img1/Study Gal Courses Images/courses-img5.png",
-        title: "2. CHARACTER DESIGN",
+        title: "5. FUN WITH CHARACTERS",
       },
       {
         id: "6",
         img_src1: "./img1/Study Gal Courses Images/courses-img6.png",
-        title: "2. CHARACTER DESIGN",
+        title: "6. ILLUSTRATION IN MOTION",
       },
       {
         id: "7",
         img_src1: "./img1/Study Gal Courses Images/courses-img7.png",
-        title: "2. CHARACTER DESIGN",
+        title: "7. CHARACTER DESIGN TO BOOST YOUR FREELANCE CAREER",
       },
       {
         id: "8",
         img_src1: "./img1/Study Gal Courses Images/courses-img8.png",
-        title: "2. CHARACTER DESIGN",
+        title: "8. ILLUSTRATION PROJECTS",
       },  
       {
         id: "9",
         img_src1: "./img1/Study Gal Courses Images/courses-img9.png",
-        title: "2. CHARACTER DESIGN",
+        title: "9. DESIGN YOUR ILLUSTRATION BRAND",
       },
       
       
