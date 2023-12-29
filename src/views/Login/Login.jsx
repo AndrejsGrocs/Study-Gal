@@ -1,5 +1,6 @@
 import React from 'react'
 import Illustartion2 from '../../img/Study Gal Characters2.png'
+import { Link } from "react-router-dom";
 
 
 export default function LogIn() {
@@ -16,7 +17,14 @@ export default function LogIn() {
         
         <button className='btn-login' type='submit' value='Send'>LOGIN</button>
 
-        <p className='form-bottom-text'>New to Study Gal? Sign Up</p>
+        <p className='form-bottom-text'>New to Study Gal? 
+        <Link
+                    to="/signup-page"
+                    activeclassname="active"
+                    className="nav-link-login"
+                  > Sign Up
+                  </Link>
+                  </p>
         <div className="sign-up-page-illustration-container">
           <img className="login-illustration-1" src={Illustartion2}></img>
 

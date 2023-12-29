@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import logoimg from "../../img/logo.svg";
 import logoimgLight from "../../img/logolight.svg";
@@ -10,6 +10,12 @@ import ColorModeSwitch from "../../components/ColorModeSwitch/ColorModeSwitch";
 
 
 export default function Navbar(props) {
+
+  const [theme, setTheme] = useState("dark");
+
+  const toggleTheme = () => {
+    setTheme((curr) => (curr === "light" ? "dark" : "light"));
+  };
   return (
     <>
       <div className="nav">
@@ -21,8 +27,14 @@ export default function Navbar(props) {
         </div>
         <ul className="nav-list">
           <div class="wrapper"  >
+
+          
     
-          <ColorModeSwitch onChange={toggleTheme} checked={theme ==='dark'}/>
+          {/* <ColorModeSwitch onChange={toggleTheme} checked={theme ==='dark'}/> */}
+
+          
+
+          
           
 
           

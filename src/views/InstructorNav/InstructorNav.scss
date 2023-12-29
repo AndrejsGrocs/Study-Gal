@@ -5,8 +5,21 @@
 
 #light .menu-item{
     color: var(--color-gray);
+   
 }
 
 #dark .menu-item{
     color: var(--color-peachpuff);
   }
+
+
+
+
+
+.menu-item.active{
+    font-weight: 800;
+
+}
+ 
+
+

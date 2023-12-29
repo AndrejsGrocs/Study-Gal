@@ -69,7 +69,7 @@
 
 .nav {
   position: relative;
-  top: 0;
+  top: -100px;
   width: 100%;
   margin: 0 auto;
 
@@ -166,15 +166,17 @@ li a {
 
 .navbar-button-section {
   position: relative;
-  left: 8vw;
+  left: 200px;
+ 
+  
 }
+
 
 .landing-btn-login {
   background-color: var(--color-peachpuff);
   width: 120px;
   height: 50px;
   text-decoration: none;
-
   font-size: 1rem;
   border-radius: 10px;
 }
@@ -204,7 +206,8 @@ li a {
 
 .switch_box {
   position: relative;
-  left: 8vw;
+  left: 50%;
+  top: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -221,6 +224,7 @@ li a {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  z-index: 5;
 }
 
 /* Switch 1 Specific Styles Start */
