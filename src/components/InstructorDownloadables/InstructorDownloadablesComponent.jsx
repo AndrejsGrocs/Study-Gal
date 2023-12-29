@@ -9,6 +9,8 @@ function InstructorDownloadablesComponent() {
    <>
    <div className='instructor-courses-cards-container'>
 
+   <button className='add-downloadables-button'>ADD DOWNLOADABLE</button>
+
     {downloadables.map((iddata) =>(
       <InstructorDownloadablesCards key={iddata.id} iddata={iddata}/>
   ))}

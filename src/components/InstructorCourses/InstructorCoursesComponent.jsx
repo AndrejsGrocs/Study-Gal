@@ -8,6 +8,7 @@ function InstructorCoursesComponent() {
     <>
 
     <div className='instructor-courses-cards-container'>
+    <button className='add-course-button'>ADD COURSE</button>
     {courses.map((icdata) =>(
         <InstructorCoursesCards key={icdata.id} icdata={icdata}/>
     ))}
