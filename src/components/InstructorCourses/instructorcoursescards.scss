@@ -12,6 +12,8 @@
   border: 1px solid var(--color-gray);
 }
 
+
+
 #light .instructor-courses-card-title {
   color: var(--color-gray);
 }
@@ -26,6 +28,12 @@
     color: var(--color-peachpuff);
     border: 1px solid var(--color-peachpuff);
   }
+  .update-button:hover {
+    background-color: var(--color-gray);
+    color: var(--color-lightseagreen);
+    border: 1px solid var(--color-lightseagreen);
+  }
+  
 }
 
 .instructor-courses-card:hover {
@@ -44,7 +52,12 @@
     color: var(--color-lightseagreen);
     border: 1px solid var(--color-lightseagreen);
   }
+  
 }
+
+
+
+
 
 .instructor-courses-card-content {
   display: flex;
@@ -113,3 +126,6 @@
 .delete_button:hover {
   padding: 1px;
 }
+
+
+
