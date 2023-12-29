@@ -26,11 +26,12 @@
 .instructor-page-menu{
     position: relative;
     top: 10vh;
-    right: -1vw;
+    right: 1vw;
     display: flex;
     flex-direction: column;
     gap: 15px;
     list-style: none;
+    width: 350px;
     
     
     font-size: 25px;

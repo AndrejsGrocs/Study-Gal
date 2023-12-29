@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 function InstructorNav() {
   return (
@@ -8,11 +8,11 @@ function InstructorNav() {
 
           <div className=''>
         <ul className='instructor-page-menu'>
-          <li ><Link to='/instructor-dashboard' className='menu-item' activeclassname='active'  >Dashboard</Link></li>
-          <li ><Link to='/courses' className='menu-item' activeclassname='active'>Courses</Link></li>
-          <li ><Link to='/downloadable' className='menu-item' activeclassname='active'>Downloadable’s</Link></li>
-          <li ><Link to='/account' className='menu-item' activeclassname='active'>Account</Link></li>
-          <li ><Link to='/' className='menu-item' activeclassname='active'>Logout</Link></li>
+          <li ><NavLink to='/instructor-dashboard' className='menu-item' activeClassName='active'  >Dashboard</NavLink></li>
+          <li ><NavLink to='/courses' className='menu-item' activeClassName='active'>Courses</NavLink></li>
+          <li ><NavLink to='/downloadable' className='menu-item' activeClassName='active'>Downloadable’s</NavLink></li>
+          <li ><NavLink to='/account' className='menu-item' activeClassName='active'>Account</NavLink></li>
+          <li ><NavLink to='/' className='menu-item' activeClassName='active'>Logout</NavLink></li>
 
 
 
