@@ -1,6 +1,6 @@
 import React, { createContext, useState } from "react";
 import MainRouter from "./main_router/MainRouter";
-import ColorModeSwitch from "./components/ColorModeSwitch/ColorModeSwitch";
+
 
 export const ThemeContext = createContext(null);
 
@@ -35,7 +35,7 @@ function App() {
             <MainRouter />
          
             <div>
-              {/* <ColorModeSwitch onChange={toggleTheme} checked={theme ==='dark'}/> */}
+              
 
              
  
