@@ -3,31 +3,47 @@
   align-items: center;
   position: relative;
   height: 200px;
- 
-  
-
   border-radius: 20px;
+}
+
+#light .update-button {
+  background-color: var(--color-peachpuff);
+  color: var(--color-gray);
+  border: 1px solid var(--color-gray);
+}
+
+#light .instructor-courses-card-title {
+  color: var(--color-gray);
+}
+
+#light .instructor-courses-card:hover {
+  background-color: var(--color-gray);
+  .instructor-courses-card-title {
+    color: var(--color-peachpuff);
+  }
+  .update-button {
+    background-color: var(--color-gray);
+    color: var(--color-peachpuff);
+    border: 1px solid var(--color-peachpuff);
+  }
 }
 
 .instructor-courses-card:hover {
   bottom: 5px;
   background-color: var(--color-peachpuff);
-  color: black;
-  .instructor-courses-card-title{
+  color: var(--color-gray);
+  .instructor-courses-card-title {
     color: var(--color-gray);
   }
-  .update-button{
+  .update-button {
     background-color: var(--color-peachpuff);
     color: var(--color-gray);
     border: 1px solid var(--color-gray);
   }
-  .update-button:hover{
-   
+  .update-button:hover {
     color: var(--color-lightseagreen);
     border: 1px solid var(--color-lightseagreen);
   }
-  
-
 }
 
 .instructor-courses-card-content {
@@ -45,7 +61,6 @@
   height: 200px;
   padding: 10px;
 }
-
 
 .instructor-courses-card-title {
   color: var(--color-peachpuff);
@@ -82,11 +97,9 @@
   position: relative;
   display: flex;
   flex-direction: row;
- 
   align-items: center;
   position: relative;
   width: 25%;
-
   gap: 20px;
 }
 
