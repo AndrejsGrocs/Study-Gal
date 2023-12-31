@@ -28,7 +28,6 @@ export default function Landing(props) {
                   
 
         </div>
-        h1
     
           <div className="illustration-container">
           <img className="landing-illustration-1" src={Illustartion1}></img>
