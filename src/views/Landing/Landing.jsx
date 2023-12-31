@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import Illustartion1 from '../../img/Study Gal Characters1.png'
 import IllustartionLight from '../../img/study-image.png'
@@ -18,7 +18,14 @@ export default function Landing(props) {
         >
         <div className="landing-text-and-button-container">
         <h1 className="lp-h1">Share your passion and help others to grow</h1>
-          <button className="sign-up-for-free-button">SIGN UP FOR FREE</button>
+      
+          <Link
+                    to="/signup-page"
+                    activeclassname="active"
+                    className="nav-link-login"
+                  > <button className="sign-up-for-free-button">SIGN UP FOR FREE</button>
+                  </Link>
+                  
 
         </div>
     
