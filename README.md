@@ -12,8 +12,7 @@ This project is the frontend version of the educational platform,
 with the account review and statistics to the Teachers which are posted 
 their courses on the platform.
 
-After the frontend implementation phase, the server and backend also will be created.
-
+DARK/LIGHT mode is available.
 
 The project is extracted to React project from Adobe XD using the Locofy technology.
 
