@@ -1,9 +1,9 @@
 .sign-up-page-body{
     display: flex;
-    justify-content: column;
+    flex-direction: column;
     justify-content: center;
     background-color: var(--color-gray);
-    height: 150vh;
+    height: 160vh;
 
 }
 
@@ -83,6 +83,7 @@
     position: relative;
     top: 10vh;
     margin: 0 auto;
+  
     
 
  }

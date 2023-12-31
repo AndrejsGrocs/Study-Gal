@@ -1,10 +1,12 @@
 import React from 'react'
 import Illustartion2 from '../../img/Study Gal Characters2.png'
 import { Link } from "react-router-dom";
+import Footer from "../Footer/Footer";
 
 
 export default function LogIn() {
   return (
+    <>
     <div className='login-page-body'>
 
 <form className='login-form'  >
@@ -36,5 +38,10 @@ export default function LogIn() {
       </form>
       
     </div>
+
+        <div>
+          <Footer />
+        </div>
+        </>
   )
 }

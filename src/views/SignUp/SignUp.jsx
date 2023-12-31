@@ -2,6 +2,7 @@ import React, {useState, useRef} from 'react'
 import Illustartion1 from '../../img/Study Gal Characters1.png'
 import IllustartionLight from '../../img/study-image.png'
 import { Link } from "react-router-dom";
+import Footer from "../Footer/Footer";
 
 
 export default function SignUp() {
@@ -10,6 +11,7 @@ export default function SignUp() {
 
   const form = useRef();
   return (
+    <>
     <div className='sign-up-page-body'>
      
       <form className='sign-up-form'  >
@@ -50,7 +52,16 @@ export default function SignUp() {
         
       </form>
 
+ 
+
+
+
 
     </div>
+
+         <div>
+          <Footer />
+        </div>
+        </>
   )
 }
