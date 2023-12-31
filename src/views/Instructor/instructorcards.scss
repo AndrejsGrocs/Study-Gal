@@ -21,8 +21,10 @@
 .instructor-card-content {
   position: relative;
   top: 2vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  gap: 1vh;
 }
 
 .instructor-card-title {
