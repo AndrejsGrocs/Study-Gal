@@ -240,14 +240,14 @@ li a {
 
 .switch_box {
   position: relative;
-  left: 900px;
+  left: 30vw;
   top: -1px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 
-  max-width: 200px;
-  min-width: 200px;
+  max-width: 150px;
+  min-width: 150px;
   height: 100px;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -315,13 +315,72 @@ input[type="checkbox"].switch_1:checked:after {
 
 /* Responsive section */
 
+@media (max-width: 4000px) {
+}
+
+
 @media (max-width: 2000px) {
+  .switch_box{
+    left: 32vw;
+  }
+}
+
+@media (max-width: 1400px) {
+  .switch_box{
+    left: 34vw;
+  }
+
+  .navbar-button-section{
+    left: 150px;
+  }
 }
 
 @media (max-width: 1200px) {
+  .switch_box{
+    left: 36vw;
+  }
+  .landing-btn-login{
+    width: 100px;
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 1024px) {
+  .landing-btn-login{
+    width: 90px;
+    height: 45px;
+    font-size: 0.8rem;
+  }
+
+  .nav-logo-img{
+    width: 215px;
+   
+
+  }
+
+  .nav-logo-img-light{
+    width: 215px;
+   
+    
+  }
+
+  input[type="checkbox"].switch_1 {
+    width: 3em;
+    height: 1em;
+  }
+
+  input[type="checkbox"].switch_1:after{
+    width: 0.9em;
+    height: 0.9em;
+  }
+
+  input[type="checkbox"].switch_1:checked:after{
+    left: calc(100% - 0.9em);
+  }
+
+
+
+  
 }
 
 @media (max-width: 960px) {
