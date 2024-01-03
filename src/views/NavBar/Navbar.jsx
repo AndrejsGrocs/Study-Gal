@@ -40,7 +40,7 @@ export default function Navbar(props) {
               <>
                 {/* <li><Link to='/' activeclassname='active' className='nav-link'> Home</Link></li>
             <li><Link to='/instructor-dashboard' activeclassname='active' className='nav-link'>Instructor</Link></li> */}
-            <div className="landing-btn-login">
+            <div >
                   <Link
                     to="/"
                     activeclassname="active"
@@ -52,7 +52,7 @@ export default function Navbar(props) {
                 </div>
 
 
-                <div className="landing-btn-login">
+                <div >
                   <Link
                     to="/login-page"
                     activeclassname="active"
@@ -62,7 +62,7 @@ export default function Navbar(props) {
              
                   </Link>
                 </div>
-                <div className="landing-btn-signup">
+                <div >
                   <Link
                     to="/signup-page"
                     activeclassname="active"
@@ -72,7 +72,7 @@ export default function Navbar(props) {
                     
                   </Link>
                 </div>
-                <div className="landing-btn-signup">
+                <div >
                   <Link
                     to="/instructor-dashboard"
                     activeclassname="active"
