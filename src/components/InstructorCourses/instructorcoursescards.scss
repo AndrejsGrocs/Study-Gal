@@ -10,9 +10,8 @@
   background-color: var(--color-peachpuff);
   color: var(--color-gray);
   border: 1px solid var(--color-gray);
+  cursor: pointer;
 }
-
-
 
 #light .instructor-courses-card-title {
   color: var(--color-gray);
@@ -20,44 +19,46 @@
 
 #light .instructor-courses-card:hover {
   background-color: var(--color-gray);
+
   .instructor-courses-card-title {
     color: var(--color-peachpuff);
   }
+
   .update-button {
     background-color: var(--color-gray);
     color: var(--color-peachpuff);
     border: 1px solid var(--color-peachpuff);
+    cursor: pointer;
   }
+
   .update-button:hover {
     background-color: var(--color-gray);
     color: var(--color-lightseagreen);
     border: 1px solid var(--color-lightseagreen);
   }
-  
 }
 
 .instructor-courses-card:hover {
   bottom: 5px;
   background-color: var(--color-peachpuff);
   color: var(--color-gray);
+
   .instructor-courses-card-title {
     color: var(--color-gray);
   }
+
   .update-button {
     background-color: var(--color-peachpuff);
     color: var(--color-gray);
     border: 1px solid var(--color-gray);
   }
+
   .update-button:hover {
     color: var(--color-lightseagreen);
     border: 1px solid var(--color-lightseagreen);
+    cursor: pointer;
   }
-  
 }
-
-
-
-
 
 .instructor-courses-card-content {
   display: flex;
@@ -121,11 +122,9 @@
   right: 3vw;
   width: 35px;
   padding: 3px;
+  cursor: pointer;
 }
 
 .delete_button:hover {
   padding: 1px;
 }
-
-
-

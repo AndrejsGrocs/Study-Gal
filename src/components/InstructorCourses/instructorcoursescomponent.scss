@@ -20,7 +20,28 @@
     height: 50px;
     background-color: var(--color-mediumslateblue);
     color: var(--color-peachpuff);
-    border-radius: 10px;
+    border-radius: 0.25rem;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-weight: 300;
+    padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+    transition: all 250ms;
   }
+
+.add-course-button:hover,
+.add-course-button:focus {
+  background-color: #a16bf8;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.add-course-button:hover {
+  transform: translateY(-1px);
+}
+
+.add-course-button:active {
+  background-color: #764eb6;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
 
 

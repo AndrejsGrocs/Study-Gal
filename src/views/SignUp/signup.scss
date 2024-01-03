@@ -67,9 +67,33 @@
     text-decoration: none;
     margin: 0 auto;
     font-size: 0.7rem;
-    border-radius: 10px;
+    border-radius: 0.25rem;
+    border: 1px solid transparent;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    font-weight: 300;
+    padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+    transition: all 250ms;
 
  }
+
+ 
+.btn-send:hover,
+.btn-send:focus {
+  background-color: #ff6c6c;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.btn-send:hover {
+  transform: translateY(-1px);
+}
+
+.btn-send:active {
+  background-color: #ff5353;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
+
 
  .form-bottom-text{
     position: relative;

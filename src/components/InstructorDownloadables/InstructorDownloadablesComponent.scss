@@ -1,20 +1,38 @@
-
-
-
-.instructor-downloadables-h1{
-    color: var(--color-tomato);
-    font-size: 5rem;
+.instructor-downloadables-h1 {
+  color: var(--color-tomato);
+  font-size: 5rem;
 }
 
-.add-downloadables-button{
-    position: relative;
-    right: 60px;
-    bottom: 20px;
-    margin-left: auto;
-    width: 190px;
-    height: 50px;
-    background-color: var(--color-mediumslateblue);
-    color: var(--color-peachpuff);
-    border-radius: 10px;
-  }
+.add-downloadables-button {
+  position: relative;
+  right: 60px;
+  bottom: 20px;
+  margin-left: auto;
+  width: 200px;
+  height: 50px;
+  background-color: var(--color-mediumslateblue);
+  color: var(--color-peachpuff);
+  border-radius: 0.25rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  font-weight: 300;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  transition: all 250ms;
+}
 
+.add-downloadables-button:hover,
+.add-downloadables-button:focus {
+  background-color: #a16bf8;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.add-downloadables-button:hover {
+  transform: translateY(-1px);
+}
+
+.add-downloadables-button:active {
+  background-color: #764eb6;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
