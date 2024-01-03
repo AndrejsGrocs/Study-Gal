@@ -36,6 +36,7 @@
 .cards-image {
   position: relative;
   left: 13vw;
+  width: 75vw;
 }
 
 #light .cards-image {
@@ -53,8 +54,8 @@
 
 .store-icons-container {
   position: relative;
-  top: -700px;
-  left: 1430px;
+  bottom: 730px;
+  left: 75vw;
   display: flex;
   flex-direction: column;
   gap: 20px;
