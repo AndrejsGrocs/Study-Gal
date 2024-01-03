@@ -56,7 +56,30 @@
   background-color: var(--color-lightseagreen);
   color: var(--color-white);
   font-size: 0.8rem;
-  border-radius: 10px;
+  cursor: pointer;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  font-weight: 300;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  transition: all 250ms;
+}
+
+.sign-up-for-free-button:hover,
+.sign-up-for-free-button:focus {
+  background-color: #02cdb6;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.sign-up-for-free-button:hover {
+  transform: translateY(-1px);
+}
+
+.sign-up-for-free-button:active {
+  background-color: #018f7f;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
 }
 
 .illustration-container {

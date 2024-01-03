@@ -167,6 +167,10 @@ li a {
 .navbar-button-section {
   position: relative;
   left: 200px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  
  
   
 }
@@ -179,6 +183,7 @@ li a {
   text-decoration: none;
   font-size: 1rem;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .landing-btn-signup {
@@ -188,6 +193,7 @@ li a {
   text-decoration: none;
   font-size: 1rem;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 // Toggle Light/Dark mode
@@ -206,8 +212,8 @@ li a {
 
 .switch_box {
   position: relative;
-  left: 50%;
-  top: 0;
+  left: 900px;
+  top: -1px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
