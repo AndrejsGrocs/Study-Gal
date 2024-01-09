@@ -22,8 +22,8 @@ function App() {
       <div className="App" id={theme}>
 
         
-          <div>
-          <div class="switch_box box_1">
+       
+          <div class="switch_box">
                 <input
                   type="checkbox"
                   class="switch_1"
@@ -42,7 +42,7 @@ function App() {
             </div>
           </div>
       
-      </div>
+    
     </ThemeContext.Provider>
   );
 }
