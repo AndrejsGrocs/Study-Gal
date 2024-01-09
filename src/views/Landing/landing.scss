@@ -35,8 +35,11 @@
 
 .lp-h1 {
   position: relative;
+  top: 1vh;
+  text-align: right;
   font-size: 3.5rem;
   font-weight: 800;
+  
 }
 
 #light .lp-h1 {
@@ -50,7 +53,7 @@
 .sign-up-for-free-button {
   position: relative;
   top: 1vh;
-  left: 20vw;
+  left: 30vw;
   width: 170px;
   height: 50px;
   background-color: var(--color-lightseagreen);
@@ -86,6 +89,7 @@
   position: relative;
   top: 22vh;
   right: 30vw;
+  
 }
 
 .landing-illustration-1 {
@@ -113,7 +117,46 @@
 @media (max-width: 2000px) {
 }
 
+
+@media (max-width: 1700px) {
+
+  .landing-body{
+    height: 80vh;
+  }
+
+  .landing-text-and-button-container{
+    width: 45%;
+    left: 40vw;
+  }
+
+  .lp-h1{
+    top: -3vh;
+  }
+
+  .illustration-container {
+    top: 10vh;
+    right: 37vw;
+   
+  
+  }
+  
+
+}
+
+@media (max-width: 1400px) {
+  .landing-body{
+    height: 70vh;
+  }
+}
+
+
 @media (max-width: 1200px) {
+
+  .landing-body{
+    height: 60vh;
+  }
+
+
 }
 
 @media (max-width: 1024px) {
