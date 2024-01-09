@@ -3,11 +3,11 @@ import React from 'react'
 
 function ColorModeSwitch() {
   return (
-    <div>
-          <div class="switch_box box_1"  >
+  
+          <div class="switch_box">
               <input type="checkbox" class="switch_1"/>
             </div>
-    </div>
+  
   )
 }
 

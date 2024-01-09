@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logoimg from "../../img/logo.svg";
 import logoimgLight from "../../img/logolight.svg";
-import instalogo from "../../img/instagram-logo.png";
-import toggleTheme from "../../App";
-import theme from "../../App";
+
 import ColorModeSwitch from "../../components/ColorModeSwitch/ColorModeSwitch";
 
 export default function Navbar(props) {
