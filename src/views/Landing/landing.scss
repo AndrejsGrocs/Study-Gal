@@ -60,7 +60,7 @@
 
 .sign-up-for-free-button {
   position: relative;
-  top: 1vh;
+  top: 3vh;
   left: 30vw;
   width: 170px;
   height: 50px;
@@ -216,7 +216,13 @@
 
   .sign-up-for-free-button{
     top: 3vh;
+    width: 120px;
+    height: 40px;
+    font-size: 0.7rem;
+    padding: calc(0.1075rem - 1px) calc(1.5rem - 1px);
   }
+
+
 
  
 }
@@ -229,6 +235,7 @@
 
   .sign-up-for-free-button{
     top: 2vh;
+    left: 0;
 
     width: 120px;
     height: 40px;
@@ -256,9 +263,7 @@
     text-align: center;
   }
 
-  .sign-up-for-free-button{
-    left: 0;
-  }
+
 
 
 }
@@ -266,11 +271,15 @@
 @media (max-width: 600px) {
 
   .landing-body{
-    height: 40vh;
+    height: 45vh;
   }
 
   .sign-up-for-free-button{
-    top: -2vh;
+    top: 2vh;
+    width: 97px;
+    height: 33px;
+    font-size: 0.6rem;
+    padding: calc(0.1075rem - 1px) calc(1.5rem - 1px);
 
   }
 
@@ -284,16 +293,38 @@
 
   }
 
+  .lp-h1{
+    font-size: 1.3rem;
+  }
+
   
   
 }
 
 @media (max-width: 535px) {
 
-  .upper{
-    position: relative;
+  .landing-section-1{
     flex-direction: column;
   }
+
+  .illustration-container{
+    top: 15vh;
+    right: 0;
+    margin: 0 auto;
+   
+  }
+
+  .landing-text-and-button-container{
+    width: 70vw;
+    top: -3vh;
+    left: 0;
+   
+
+  }
+
+
+
+
 }
 
 
