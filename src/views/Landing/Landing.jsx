@@ -11,11 +11,15 @@ import LandingSection3 from "./LandingSection3";
 export default function Landing(props) {
   return (
     <>
-      <div>
+      <div className="upper">
       
-        <div className="landing-body" 
-       
-        >
+        <div className="landing-body">
+
+<div className="landing-section-1">
+
+
+
+
         <div className="landing-text-and-button-container">
         <h1 className="lp-h1">Share your passion and help others to grow</h1>
       
@@ -32,6 +36,8 @@ export default function Landing(props) {
           <div className="illustration-container">
           <img className="landing-illustration-1" src={Illustartion1}></img>
           <img className="landing-illustration-1-light" src={IllustartionLight}></img>
+
+          </div>
 
           </div>
 
