@@ -133,6 +133,12 @@
 
 @media (max-width: 1200px) {
 
+  .landing-section-3-body {
+
+  
+    height: 90vh;
+  }
+
   .store-icons-container{
     bottom: 400px;
     
@@ -141,6 +147,13 @@
 }
 
 @media (max-width: 1024px) {
+
+  
+  .landing-section-3-body {
+
+  
+    height: 80vh;
+  }
 }
 
 @media (max-width: 960px) {
@@ -153,12 +166,24 @@
 }
 
 @media (max-width: 768px) {
+
+  .landing-section-3-body {
+
+  
+    height: 70vh;
+  }
 }
 
 @media (max-width: 600px) {
 }
 
 @media (max-width: 480px) {
+
+  .landing-section-3-body {
+
+  
+    height: 60vh;
+  }
 
   .store-icons-container{
     left: 20vw;
