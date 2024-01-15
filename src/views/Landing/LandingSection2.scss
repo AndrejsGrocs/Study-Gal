@@ -10,6 +10,8 @@
   height: 60vh;
 }
 
+
+
 #light {
   background-color: var(--color-peachpuff);
 }
@@ -75,12 +77,22 @@
 }
 
 @media (max-width: 1200px) {
+
+  .landing-section-2-body {
+  
+
+    height: 35vh;
+  }
 }
 
 @media (max-width: 1024px) {
+
   .landing-section-2-body {
     top: -5vh;
+
+    height: 40vh;
   }
+
 
   .illustration2-container {
     top: 2vh;
@@ -113,6 +125,12 @@
 }
 
 @media (max-width: 600px) {
+
+  .landing-section-2-body {
+
+
+    height: 10vh;
+  }
   .lp2-h1 {
     font-size: 1.3rem;
   }
@@ -121,6 +139,7 @@
 @media (max-width: 535px) {
   .landing-section-2-body {
     top: 3vh;
+    height: 35vh;
   }
 
   .landing-section-2 {
@@ -169,8 +188,11 @@
 }
 
 @media (max-width: 320px) {
+
+  
   .landing-section-2-body {
     top: -15vh;
+    height: 10vh;
   }
 
   .lp2-h1 {
