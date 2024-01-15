@@ -5,6 +5,7 @@ function LandingSection2() {
   return (
     <>
     <div className='landing-section-2-body'>
+    <div className='landing-section-2'>
 
     <h1 className='lp2-h1'>Convert your skills into a flourishing business</h1>
        
@@ -13,7 +14,7 @@ function LandingSection2() {
         </div>
     
  
-
+</div>
     </div>
    
     </>

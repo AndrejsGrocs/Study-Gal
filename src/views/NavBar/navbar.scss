@@ -95,8 +95,6 @@
   z-index: 2;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
-  
-  
 }
 
 .nav-list {
@@ -112,15 +110,11 @@
   text-decoration: none;
   display: flex;
   flex-direction: row;
-  
- 
 }
 
 .nav-link {
   text-decoration: none;
   color: var(--color-gray);
-  
-  
 }
 
 .landing-btn-login {
@@ -142,7 +136,6 @@ li a {
   color: #2a3d4f;
   padding: 10px;
   margin: 100px;
-  
 }
 
 .nav-logo-img {
@@ -150,7 +143,6 @@ li a {
   left: 10vw;
   width: 250px;
   height: 100px;
-  
 }
 
 .nav-logo-img-light {
@@ -174,10 +166,7 @@ li a {
   justify-content: center;
   width: 25%;
   background-color: var(--color-gray);
-
 }
-
-
 
 .sm-section {
   width: 15%;
@@ -240,7 +229,6 @@ li a {
   -ms-flex: 1;
   flex: 1;
   z-index: 5;
- 
 }
 
 /* Switch 1 Specific Styles Start */
@@ -403,7 +391,6 @@ input[type="checkbox"].switch_1:checked:after {
 
   .switch_box {
     width: 65px;
-    
   }
 }
 
@@ -411,12 +398,11 @@ input[type="checkbox"].switch_1:checked:after {
   .navbar-button-section {
     position: relative;
     top: 50px;
-   left: -10vw;
-   gap: 5vw;
+    left: -10vw;
+    gap: 5vw;
   }
 
   .switch_box {
-
     width: 75px;
     left: 65vw;
   }
@@ -447,27 +433,22 @@ input[type="checkbox"].switch_1:checked:after {
 }
 
 @media (max-width: 400px) {
-
   .nav-logo-img {
     top: 0.3vh;
     width: 145px;
-
   }
 
   .nav-logo-img-light {
     top: 0.3vh;
     width: 145px;
-   
   }
 
   .navbar-button-section {
-  
-   gap: 3vw;
+    gap: 3vw;
   }
 
   .switch_box {
-      width: 56px;
-    
+    width: 56px;
   }
 
   input[type="checkbox"].switch_1 {
@@ -489,44 +470,33 @@ input[type="checkbox"].switch_1:checked:after {
   .landing-btn-login {
     width: 50px;
     height: 25px;
-    font-size: 0.40rem;
+    font-size: 0.4rem;
   }
 
   .switch_box {
     left: 70vw;
-  
+  }
+
+  .switch_box {
+    width: 45px;
+  }
+
+  input[type="checkbox"].switch_1 {
+    width: 2.5em;
+    height: 0.6em;
+  }
+
+  input[type="checkbox"].switch_1:after {
+    width: 0.56em;
+    height: 0.56em;
+  }
+
+  input[type="checkbox"].switch_1:checked:after {
+    left: calc(100% - 0.6em);
+  }
 }
-
-.switch_box {
-  width: 45px;
-
-}
-
-
-input[type="checkbox"].switch_1 {
-  width: 2.5em;
-  height: 0.6em;
-}
-
-input[type="checkbox"].switch_1:after {
-  width: 0.56em;
-  height: 0.56em;
-}
-
-input[type="checkbox"].switch_1:checked:after {
-  left: calc(100% - 0.6em);
-}
-
-
-
-
-
-
-}
-
 
 @media (max-width: 250px) {
-
   .landing-btn-login {
     width: 45px;
     height: 25px;
@@ -536,16 +506,14 @@ input[type="checkbox"].switch_1:checked:after {
   .nav-logo-img {
     top: -3vh;
     width: 120px;
-
   }
 
   .nav-logo-img-light {
     top: -3vh;
     width: 120px;
-   
   }
 
-  .navbar-button-section{
+  .navbar-button-section {
     top: 22px;
   }
 
@@ -555,29 +523,20 @@ input[type="checkbox"].switch_1:checked:after {
 
     width: 25%;
     height: 20px;
- 
-
-  
   }
 
-  #light .logo-section{
+  #light .logo-section {
     position: relative;
     top: -16px;
 
     width: 25%;
     height: 20px;
- 
-   
-
   }
 
   .switch_box {
     top: -3.3vh;
     width: 39px;
-  
   }
-
-
 }
 
 /* <------------------------------> */

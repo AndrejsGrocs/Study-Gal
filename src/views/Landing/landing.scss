@@ -8,11 +8,10 @@
   height: 105vh;
 }
 
-.landing-section-1{
+.landing-section-1 {
   position: relative;
   display: flex;
   flex-direction: row;
-  
 }
 
 #light {
@@ -31,7 +30,6 @@
   justify-content: center;
 }
 
-
 .landing-text-and-button-container {
   position: relative;
   top: 10vh;
@@ -47,7 +45,6 @@
   text-align: right;
   font-size: 3.5rem;
   font-weight: 800;
-  
 }
 
 #light .lp-h1 {
@@ -96,7 +93,6 @@
   position: relative;
   top: 22vh;
   right: 22vw;
-  
 }
 
 .landing-illustration-1 {
@@ -124,116 +120,92 @@
 @media (max-width: 2000px) {
 }
 
-
 @media (max-width: 1700px) {
-
-  .landing-body{
+  .landing-body {
     height: 80vh;
   }
 
-  .landing-text-and-button-container{
+  .landing-text-and-button-container {
     width: 45%;
     left: 44vw;
   }
 
-  .lp-h1{
+  .lp-h1 {
     top: -3vh;
   }
 
   .illustration-container {
     top: 10vh;
     right: 34vw;
-   
-  
   }
-  
-
 }
 
 @media (max-width: 1400px) {
-  .landing-body{
+  .landing-body {
     height: 70vh;
   }
 
-  .lp-h1{
+  .lp-h1 {
     font-size: 2.5rem;
   }
 }
 
-
 @media (max-width: 1200px) {
-
-  .landing-body{
+  .landing-body {
     height: 60vh;
   }
-
-
 }
 
 @media (max-width: 1024px) {
-
-  .sign-up-for-free-button{
-   
+  .sign-up-for-free-button {
     width: 140px;
     left: 25vw;
   }
 
-  .illustration-container{
+  .illustration-container {
     top: 2vh;
     right: 30vw;
   }
 
-  .landing-illustration-1{
+  .landing-illustration-1 {
     width: 48vw;
-
   }
 
-  .landing-illustration-1-light{
+  .landing-illustration-1-light {
     width: 48vw;
-
   }
-  
-  .landing-text-and-button-container{
+
+  .landing-text-and-button-container {
     top: 3vh;
     width: 38%;
     left: 56vw;
   }
-
-
 }
 
 @media (max-width: 960px) {
-
-  .landing-text-and-button-container{
- 
+  .landing-text-and-button-container {
     left: 50vw;
   }
 
-  .lp-h1{
+  .lp-h1 {
     font-size: 2rem;
   }
-  
 
-  .sign-up-for-free-button{
+  .sign-up-for-free-button {
     top: 3vh;
     width: 120px;
     height: 40px;
     font-size: 0.7rem;
     padding: calc(0.1075rem - 1px) calc(1.5rem - 1px);
   }
-
-
-
- 
 }
 
 @media (max-width: 768px) {
-
-  .landing-body{
+  .landing-body {
     height: 50vh;
   }
 
-  .sign-up-for-free-button{
+  .sign-up-for-free-button {
     top: 2vh;
     left: 0;
 
@@ -241,181 +213,136 @@
     height: 40px;
     font-size: 0.7rem;
     padding: calc(0.1075rem - 1px) calc(1.5rem - 1px);
-   
-   
-
   }
 
-  .landing-text-and-button-container{
+  .landing-text-and-button-container {
     top: 5vh;
     text-align: center;
     left: 54vw;
-    
   }
 
-  .illustration-container{
+  .illustration-container {
     height: 10vh;
   }
-  
 
-  .lp-h1{
+  .lp-h1 {
     font-size: 1.7rem;
     text-align: center;
   }
-
-
-
-
 }
 
 @media (max-width: 600px) {
-
-  .landing-body{
+  .landing-body {
     height: 45vh;
   }
 
-  .sign-up-for-free-button{
+  .sign-up-for-free-button {
     top: 1vh;
     width: 97px;
     height: 33px;
     font-size: 0.6rem;
     padding: calc(0.1075rem - 1px) calc(1.5rem - 1px);
-
   }
 
-  .illustration-container{
+  .illustration-container {
     top: -5vh;
-   
   }
 
-  .landing-text-and-button-container{
+  .landing-text-and-button-container {
     top: -3vh;
-
   }
 
-  .lp-h1{
+  .lp-h1 {
     font-size: 1.3rem;
   }
-
-  
-  
 }
 
 @media (max-width: 535px) {
-
-  .landing-section-1{
+  .landing-section-1 {
     flex-direction: column;
   }
 
-  .illustration-container{
+  .illustration-container {
     top: 10vh;
     left: 4vw;
     margin: 0 auto;
-   
   }
 
-  .landing-text-and-button-container{
+  .landing-text-and-button-container {
     width: 70vw;
     top: -3vh;
     left: 0;
-   }
-
-   .landing-illustration-1{
-    width: 55vw;
-
   }
 
-  .landing-illustration-1-light{
+  .landing-illustration-1 {
     width: 55vw;
-
   }
 
-   .sign-up-for-free-button{
+  .landing-illustration-1-light {
+    width: 55vw;
+  }
+
+  .sign-up-for-free-button {
     top: -1vh;
     width: 90px;
     height: 30px;
     font-size: 0.5rem;
     padding: calc(0.1075rem - 1px) calc(1.5rem - 1px);
-
   }
 
-  .lp-h1{
+  .lp-h1 {
     font-size: 1.1rem;
   }
-
-
-
-
 }
 
 @media (max-width: 400px) {
-
-  .landing-illustration-1{
+  .landing-illustration-1 {
     width: 65vw;
-
   }
 
-  .landing-illustration-1-light{
+  .landing-illustration-1-light {
     width: 65vw;
-
   }
 }
 
-
-
 @media (max-width: 320px) {
-
-  .landing-text-and-button-container{
-
+  .landing-text-and-button-container {
     top: -7vh;
- 
-   }
+  }
 
-   .lp-h1{
+  .lp-h1 {
     font-size: 0.9rem;
   }
 
-  .sign-up-for-free-button{
+  .sign-up-for-free-button {
     text-align: center;
     top: -3vh;
     width: 70px;
     height: 25px;
     font-size: 0.35rem;
     padding: calc(0.1075rem - 1px) calc(1.5rem - 1px);
-
   }
 
-
-  .illustration-container{
+  .illustration-container {
     top: 1vh;
-
-   
   }
-
 }
 
 @media (max-width: 250px) {
-
-  .landing-text-and-button-container{
-
+  .landing-text-and-button-container {
     top: -10vh;
- 
-   }
-
-   .landing-illustration-1{
-    width: 75vw;
-
   }
 
-  .landing-illustration-1-light{
+  .landing-illustration-1 {
     width: 75vw;
-
   }
 
-  .illustration-container{
+  .landing-illustration-1-light {
+    width: 75vw;
+  }
+
+  .illustration-container {
     top: -2vh;
-
-   
   }
 }
 
