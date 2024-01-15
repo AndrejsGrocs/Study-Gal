@@ -177,6 +177,8 @@ li a {
 
 }
 
+
+
 .sm-section {
   width: 15%;
   background-color: var(--color-lightseagreen);
@@ -341,7 +343,7 @@ input[type="checkbox"].switch_1:checked:after {
 
   input[type="checkbox"].switch_1 {
     width: 2.5em;
-    height: 1em;
+    height: 0.95em;
   }
 
   input[type="checkbox"].switch_1:after {
@@ -436,7 +438,7 @@ input[type="checkbox"].switch_1:checked:after {
     left: 20vw;
 
     width: 170px;
-    height: 30px;
+    height: 50px;
   }
 
   .nav-list {
@@ -448,13 +450,13 @@ input[type="checkbox"].switch_1:checked:after {
 
   .nav-logo-img {
     top: 0.3vh;
-    width: 150px;
+    width: 145px;
 
   }
 
   .nav-logo-img-light {
     top: 0.3vh;
-    width: 150px;
+    width: 145px;
    
   }
 
@@ -496,8 +498,23 @@ input[type="checkbox"].switch_1:checked:after {
 }
 
 .switch_box {
-  width: 49px;
+  width: 45px;
 
+}
+
+
+input[type="checkbox"].switch_1 {
+  width: 2.5em;
+  height: 0.6em;
+}
+
+input[type="checkbox"].switch_1:after {
+  width: 0.56em;
+  height: 0.56em;
+}
+
+input[type="checkbox"].switch_1:checked:after {
+  left: calc(100% - 0.6em);
 }
 
 
@@ -517,51 +534,50 @@ input[type="checkbox"].switch_1:checked:after {
   }
 
   .nav-logo-img {
-    top: 0.3vh;
+    top: -3vh;
     width: 120px;
 
   }
 
   .nav-logo-img-light {
-    top: 0.3vh;
+    top: -3vh;
     width: 120px;
    
   }
 
   .navbar-button-section{
-    top: 33px;
+    top: 22px;
   }
 
-  .logo-section {
+  #dark .logo-section {
     position: relative;
     top: -16px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+
     width: 25%;
     height: 20px;
-    background-color: var(--color-gray);
+ 
+
   
+  }
+
+  #light .logo-section{
+    position: relative;
+    top: -16px;
+
+    width: 25%;
+    height: 20px;
+ 
+   
+
   }
 
   .switch_box {
-    width: 41px;
+    top: -3.3vh;
+    width: 39px;
   
   }
 
-  input[type="checkbox"].switch_1 {
-    width: 2.5em;
-    height: 0.6em;
-  }
-  
-  input[type="checkbox"].switch_1:after {
-    width: 0.56em;
-    height: 0.56em;
-  }
-  
-  input[type="checkbox"].switch_1:checked:after {
-    left: calc(100% - 0.6em);
-  }
+
 }
 
 /* <------------------------------> */
