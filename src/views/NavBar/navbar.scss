@@ -95,6 +95,8 @@
   z-index: 2;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
+  
+  
 }
 
 .nav-list {
@@ -110,12 +112,15 @@
   text-decoration: none;
   display: flex;
   flex-direction: row;
+  
  
 }
 
 .nav-link {
   text-decoration: none;
   color: var(--color-gray);
+  
+  
 }
 
 .landing-btn-login {
@@ -137,6 +142,7 @@ li a {
   color: #2a3d4f;
   padding: 10px;
   margin: 100px;
+  
 }
 
 .nav-logo-img {
@@ -144,6 +150,7 @@ li a {
   left: 10vw;
   width: 250px;
   height: 100px;
+  
 }
 
 .nav-logo-img-light {
@@ -167,6 +174,7 @@ li a {
   justify-content: center;
   width: 25%;
   background-color: var(--color-gray);
+
 }
 
 .sm-section {
@@ -437,21 +445,123 @@ input[type="checkbox"].switch_1:checked:after {
 }
 
 @media (max-width: 400px) {
+
+  .nav-logo-img {
+    top: 0.3vh;
+    width: 150px;
+
+  }
+
+  .nav-logo-img-light {
+    top: 0.3vh;
+    width: 150px;
+   
+  }
+
   .navbar-button-section {
+  
+   gap: 3vw;
+  }
 
-   
- 
-   
+  .switch_box {
+      width: 56px;
     
+  }
 
+  input[type="checkbox"].switch_1 {
+    width: 2.5em;
+    height: 0.75em;
+  }
+
+  input[type="checkbox"].switch_1:after {
+    width: 0.7em;
+    height: 0.7em;
+  }
+
+  input[type="checkbox"].switch_1:checked:after {
+    left: calc(100% - 0.7em);
   }
 }
 
 @media (max-width: 320px) {
+  .landing-btn-login {
+    width: 50px;
+    height: 25px;
+    font-size: 0.40rem;
+  }
+
+  .switch_box {
+    left: 70vw;
+  
+}
+
+.switch_box {
+  width: 49px;
+
 }
 
 
-@media (max-width: 200px) {
+
+
+
+
+}
+
+
+@media (max-width: 250px) {
+
+  .landing-btn-login {
+    width: 45px;
+    height: 25px;
+    font-size: 0.38rem;
+  }
+
+  .nav-logo-img {
+    top: 0.3vh;
+    width: 120px;
+
+  }
+
+  .nav-logo-img-light {
+    top: 0.3vh;
+    width: 120px;
+   
+  }
+
+  .navbar-button-section{
+    top: 33px;
+  }
+
+  .logo-section {
+    position: relative;
+    top: -16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 25%;
+    height: 20px;
+    background-color: var(--color-gray);
+  
+  }
+
+  .switch_box {
+    width: 41px;
+  
+  }
+
+  input[type="checkbox"].switch_1 {
+    width: 2.5em;
+    height: 0.6em;
+  }
+  
+  input[type="checkbox"].switch_1:after {
+    width: 0.56em;
+    height: 0.56em;
+  }
+  
+  input[type="checkbox"].switch_1:checked:after {
+    left: calc(100% - 0.6em);
+  }
 }
 
 /* <------------------------------> */
