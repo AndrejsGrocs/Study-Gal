@@ -1,6 +1,10 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import FooterLogo from "../../img/logo_no_text_light.png";
 import FooterLogoLight from "../../img/logo_no_text_black.png";
+import reactLogo from "../../img/react_logo.png";
+import ScrollToTop from "./../../components/ScrollToTop/ScrollToTopComponent";
+
 
 export default function Footer() {
   return (
@@ -26,13 +30,39 @@ export default function Footer() {
             <p className='footer-card-text'>We are always looking for talent</p>
             <p className='footer-card-text'>jobs@studygal.com</p>
 
+          <div >
+
+          <a href="https://legacy.reactjs.org/" target="_blank" rel="noreferrer">
+          <img className='react-logo' src={reactLogo} alt='react animated logo' />
+      </a>
+
+
           
+          </div>
 
             </div>
+            
             <div>
-            <img className="footer-logo" src={FooterLogo}></img>
+
+            
+            <Link
+
+                    
+                    to="/"
+                    activeclassname="active"
+                    className="nav-link-login"
+                  >
+                  <ScrollToTop/> 
+                     
+                  <img className="footer-logo" src={FooterLogo}></img>
             <img className="footer-logo-light" src={FooterLogoLight}></img>
+           
+                  </Link>
+                  
+                  
+        
             </div>
+         
 
          
        
