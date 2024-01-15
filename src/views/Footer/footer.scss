@@ -2,7 +2,7 @@
     position: relative;
 
     background-color: var(--color-gray);
-    height: 10vh;
+    height: 12.5vh;
     color: #fff;
 }
 
@@ -66,6 +66,33 @@
   
   #dark .footer-logo-light {
     display: none;
+  }
+
+
+  .react-logo {
+    position: relative;
+    left: 20vw;
+    bottom: 5.5vh;
+  
+    height: 5.5vh;
+    animation-name: rotate;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  .react-logo:after {
+    transform: rotate(-57deg);
+  }
+  
+  .react-logo:before {
+    transform: rotate(57deg);
+  }
+  
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
   }
 
 

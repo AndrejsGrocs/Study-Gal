@@ -2,6 +2,7 @@ import React, { createContext, useState } from "react";
 import MainRouter from "./main_router/MainRouter";
 
 
+
 export const ThemeContext = createContext(null);
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
     };
 
   return (
+   <>
+    
+    
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div className="App" id={theme}>
 
@@ -31,7 +35,7 @@ function App() {
                   checked={theme === "light"}
                 />
               </div>
-         
+              
             <MainRouter />
          
             <div>
@@ -44,6 +48,7 @@ function App() {
       
     
     </ThemeContext.Provider>
+    </>
   );
 }
 
