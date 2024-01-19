@@ -50,13 +50,13 @@
 
 .footer-logo {
     position: relative;
-    top: 5px;
+    top: 15px;
     left: 10vw;
 }
 
 .footer-logo-light {
     position: relative;
-    top: 5px;
+    top: 15px;
     left: 10vw;
 }
 
@@ -104,6 +104,42 @@
 }
 
 @media (max-width: 1200px) {
+
+    .footer-logo {
+        
+        top: 10px;
+        width: 6vw;
+       
+    }
+
+    .footer-logo-light {
+       
+       top: 10px;
+       width: 6vw;
+       
+    }
+
+      .react-logo {
+
+    left: 21vw;
+    bottom: 4.5vh;
+  
+    height: 5vh;
+
+  }
+
+
+  .footer-card-h1 {
+    color: var(--color-peachpuff);
+    font-size: 0.7rem;
+    font-weight: 100;
+}
+
+.footer-card-text {
+    color: var(--color-peachpuff);
+    font-size: 0.6rem;
+    font-weight: 200;
+}
 }
 
 @media (max-width: 1024px) {
