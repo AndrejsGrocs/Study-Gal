@@ -29,12 +29,13 @@
   position: relative;
   left: 15vw;
   width: 50vw;
-  font-size: 24px;
+  font-size: 1.8rem;
   color: var(--color-tomato);
 }
 
 .cards-image {
   position: relative;
+  top: 3vh;
   left: 13vw;
   width: 75vw;
 }
@@ -45,6 +46,7 @@
 
 #light .cards-image-light {
   position: relative;
+  top: 3vh;
   left: 13vw;
   width: 75vw;
 }
@@ -55,34 +57,46 @@
 
 .store-icons-container {
   position: relative;
-  bottom: 730px;
-  left: 75vw;
+  top: -710px;
+  left: 74vw;
   display: flex;
   flex-direction: column;
+  width: 12vw;
   gap: 20px;
-  width: 5vw;
+
 }
 
 .store-icons-h1 {
+  position: relative;
   color: var(--color-mediumslateblue);
-  width: 10vw;
-  font-size: 24px;
+  /* width: 10vw; */
+  font-size: 1.5rem;
   font-weight: 900;
   text-align: left;
 }
 
+.store-button-link{
+  height: 1px;
+}
+
 .google-play-button-image {
   position: relative;
+  top: -2vh;
   margin-left: 80px;
   width: 5vw;
+  cursor: pointer;  
   z-index: 2;
+  
 }
 
 .google-play-button-image-light {
   position: relative;
+  top: -2vh;
   margin-left: 80px;
   width: 5vw;
+  cursor: pointer;
   z-index: 2;
+  
 }
 
 #light .google-play-button-image {
@@ -95,17 +109,23 @@
 
 .app-store-button-image {
   position: relative;
+  top: -2vh;
   margin-left: 80px;
   width: 5vw;
+  cursor: pointer;
   z-index: 2;
 }
 
 .app-store-button-image-light {
   position: relative;
+  top: -2vh;
   margin-left: 80px;
   width: 5vw;
+  cursor: pointer;
   z-index: 2;
 }
+
+
 
 #light .app-store-button-image {
   display: none;
@@ -123,11 +143,39 @@
 }
 
 @media (max-width: 2000px) {
+  .store-icons-container {
+    top: -660px;
+  }
+
+  .store-icons-h1 {
+  }
+}
+
+@media (max-width: 1900px) {
+  .store-icons-container {
+    top: -650px;
+  }
+}
+
+@media (max-width: 1800px) {
+  .store-icons-container {
+    top: -610px;
+  }
 }
 
 @media (max-width: 1700px) {
   .landing-section-3-body {
     height: 100vh;
+  }
+
+  .store-icons-container {
+    top: -580px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .store-icons-container {
+    top: -540px;
   }
 }
 
@@ -136,8 +184,12 @@
     top: 10vh;
   }
 
+  .store-icons-h1 {
+    font-size: 1.2rem;
+  }
+
   .store-icons-container {
-    bottom: 560px;
+    top: -515px;
   }
 }
 
@@ -148,6 +200,37 @@
 
   .landing-section-3-container {
     top: -15vh;
+  }
+
+  .store-icons-container {
+    top: -470px;
+    gap: 15px;
+  }
+
+  .store-icons-h1 {
+    font-size: 0.9rem;
+  }
+
+  .google-play-button-image {
+    margin-left: 1px;
+  }
+
+  .google-play-button-image-light {
+    margin-left: 1px;
+  }
+
+  .app-store-button-image {
+    margin-left: 1px;
+  }
+
+  .app-store-button-image-light {
+    margin-left: 1px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .store-icons-container {
+    top: -441px;
   }
 }
 
@@ -161,7 +244,24 @@
   }
 
   .store-icons-container {
-    bottom: 400px;
+    top: -410px;
+    gap: 10px;
+  }
+
+  .lp3-h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1150px) {
+  .store-icons-container {
+    top: -390px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .store-icons-container {
+    top: -370px;
   }
 }
 
@@ -173,11 +273,34 @@
   .landing-section-3-container {
     top: 5vh;
   }
+
+  .lp3-h1 {
+    font-size: 1.2rem;
+  }
+
+  .store-icons-container {
+    top: -342px;
+  }
 }
 
 @media (max-width: 960px) {
   .store-icons-container {
     bottom: 270px;
+  }
+
+  .store-icons-container {
+    top: -320px;
+  }
+
+  .store-icons-h1 {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .store-icons-container {
+    top: -290px;
   }
 }
 
@@ -189,17 +312,80 @@
   .landing-section-3-container {
     top: -10vh;
   }
+
+  .lp3-h1 {
+    font-size: 1rem;
+  }
+
+  .store-icons-container {
+    top: -260px;
+  }
+
+  .store-icons-h1 {
+    font-size: 0.6rem;
+  }
+}
+
+
+@media (max-width: 700px) {
+
+  .store-icons-container {
+    top: -230px;
+  }
+
+}
+
+@media (max-width: 630px) {
+
+  .store-icons-container {
+    width: 15vw;
+    top: -210px;
+  }
+
+
+
+
 }
 
 @media (max-width: 600px) {
   .landing-section-3-container {
     top: 10vh;
   }
+
+
+  .store-icons-h1 {
+
+    top: 2vh;
+  }
+
+  .google-play-button-image {
+ 
+    top: -1vh;
+
+    
+  }
+  
+  .google-play-button-image-light {
+
+    top: -1vh;
+
+  }
+
+
 }
 
 @media (max-width: 535px) {
   .landing-section-3-body {
     height: 50vh;
+  }
+
+  .lp3-h1 {
+    font-size: 0.8rem;
+  }
+
+  .store-icons-container {
+    width: 20vw;
+    top: -180px;
   }
 }
 
@@ -209,14 +395,24 @@
   }
 
   .store-icons-container {
-    left: 20vw;
+    left: 74vw;
+    top: -170px;
   }
 }
 
 @media (max-width: 320px) {
+  .lp3-h1 {
+    font-size: 0.7rem;
+  }
+
+  .store-icons-container {
+    left: 74vw;
+    top: -120px;
+  }
 }
 
-@media (max-width: 200px) {
+@media (max-width: 250px) {
+
 }
 
 /* <------------------------------> */
