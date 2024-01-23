@@ -25,16 +25,19 @@
 }
 
 .footer-logo-a {
-    height: 5vh;
+  height: 5vh;
   position: relative;
   top: 15px;
   left: 10vw;
   width: 0.5vw;
+  border: 1px solid green;
+}
 
-
-
-
- 
+.a-link {
+  position: relative;
+  left: 10vw;
+  height: 10px;
+  border: 1px solid red;
 }
 
 .footer-container {
@@ -50,12 +53,14 @@
 }
 
 .footer-card-h1 {
+  position: relative;
   color: var(--color-peachpuff);
   font-size: 0.9rem;
   font-weight: 100;
 }
 
 .footer-card-text {
+  position: relative;
   color: var(--color-peachpuff);
   font-size: 0.7rem;
   font-weight: 200;
@@ -64,23 +69,11 @@
 .footer-logo {
   position: relative;
   width: 5vw;
-
-  
-  
-
-
-
 }
 
 .footer-logo-light {
   position: relative;
   width: 5vw;
-
-
-  
-
-
-
 }
 
 #light .footer-logo {
@@ -130,13 +123,11 @@
 }
 
 @media (max-width: 1200px) {
-
-
   .react-logo {
     left: 21vw;
-    bottom: 4.5vh;
+    bottom: 4vh;
 
-    height: 5vh;
+    height: 4.5vh;
   }
 
   .footer-card-h1 {
@@ -169,27 +160,93 @@
 }
 
 @media (max-width: 768px) {
+  .footer-card-h1 {
+    font-size: 0.6rem;
+  }
+
+  .footer-card-text {
+    font-size: 0.5rem;
+  }
+
+  .react-logo {
+    bottom: 2.8vh;
+
+    height: 3vh;
+  }
+}
+
+.footer-card {
+  width: 22%;
+}
+
+.a-link {
+  top: 2vh;
 }
 
 @media (max-width: 600px) {
+
+  .a-link {
+    top: 3vh; 
+  }
+  .footer-logo {
+    top: -5px;
+  }
+
+  .footer-logo-light {
+    top: -5px;
+  }
+}
+
+@media (max-width: 535px) {
+  .footer-body {
+    height: 12.5vh;
+  }
 }
 
 @media (max-width: 480px) {
+  .footer-container {
+    margin-left: 20vw;
+    gap: 0.5vw;
+  }
+
   .footer-logo {
-    left: -1vw;
+    width: 10vw;
+  }
+
+  .footer-logo-light {
+    width: 10vw;
+  }
+
+  .footer-card {
+    width: 25%;
+  }
+
+  .footer-card-h1 {
+    top: 50px;
+    font-size: 0.5rem;
+  }
+
+  .footer-card-text {
+    top: 50px;
+    font-size: 0.4rem;
+  }
+
+  .react-logo {
+    bottom: 2.8vh;
+    left: -22vw;
+
+    height: 3vh;
+  }
+
+  .a-link {
+    position: relative;
+    top: 2vh;
+    left: -25vw;
+    border: 1px solid red;
   }
 }
 
 @media (max-width: 320px) {
-  .footer-logo {
-    left: -3vw;
-   
-  }
-
-  .footer-logo-light {
-    left: -3vw;
-   
-  }
 }
 
 @media (max-width: 200px) {

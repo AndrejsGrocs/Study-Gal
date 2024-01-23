@@ -30,19 +30,16 @@ export default function Footer() {
             <p className='footer-card-text'>We are always looking for talent</p>
             <p className='footer-card-text'>jobs@studygal.com</p>
 
-          <div >
-
+ 
           <a className='react-logo-container' href="https://legacy.reactjs.org/" target="_blank" rel="noreferrer">
           <img className='react-logo' src={reactLogo} alt='react animated logo' />
       </a>
 
 
-          
-          </div>
 
             </div>
             
-            <div className='footer-logo-a'>
+     
 
             
             <Link
@@ -50,6 +47,7 @@ export default function Footer() {
                     
                     to="/"
                     activeclassname="active"
+                    className='a-link'
                  
           
                     
@@ -63,7 +61,7 @@ export default function Footer() {
                   
                   
         
-            </div>
+  
          
 
          
