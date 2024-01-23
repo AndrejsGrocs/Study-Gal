@@ -32,7 +32,7 @@ export default function Footer() {
 
           <div >
 
-          <a href="https://legacy.reactjs.org/" target="_blank" rel="noreferrer">
+          <a className='react-logo-container' href="https://legacy.reactjs.org/" target="_blank" rel="noreferrer">
           <img className='react-logo' src={reactLogo} alt='react animated logo' />
       </a>
 
@@ -42,7 +42,7 @@ export default function Footer() {
 
             </div>
             
-            <div>
+            <div className='footer-logo-a'>
 
             
             <Link
@@ -50,7 +50,9 @@ export default function Footer() {
                     
                     to="/"
                     activeclassname="active"
-                    className="nav-link-login"
+                 
+          
+                    
                   >
                   <ScrollToTop/> 
                      

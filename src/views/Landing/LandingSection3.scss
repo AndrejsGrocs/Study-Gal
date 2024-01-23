@@ -299,6 +299,10 @@
 
 @media (max-width: 900px) {
 
+  .landing-section-3-body {
+    height: 55vh;
+  }
+
   .store-icons-container {
     top: -290px;
   }
@@ -306,7 +310,7 @@
 
 @media (max-width: 768px) {
   .landing-section-3-body {
-    height: 60vh;
+    height: 40vh;
   }
 
   .landing-section-3-container {
@@ -376,7 +380,7 @@
 
 @media (max-width: 535px) {
   .landing-section-3-body {
-    height: 50vh;
+    height: 37vh;
   }
 
   .lp3-h1 {
@@ -401,6 +405,11 @@
 }
 
 @media (max-width: 320px) {
+
+  .landing-section-3-body {
+    height: 30vh;
+  }
+
   .lp3-h1 {
     font-size: 0.7rem;
   }

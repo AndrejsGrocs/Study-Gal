@@ -26,7 +26,7 @@ export default function Landing(props) {
           <Link
                     to="/signup-page"
                     activeclassname="active"
-                    className="nav-link-login"
+                  
                   > <button className="sign-up-for-free-button">SIGN UP FOR FREE</button>
                   </Link>
                   
