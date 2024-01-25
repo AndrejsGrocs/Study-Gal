@@ -1,6 +1,6 @@
 .login-page-body {
   display: flex;
-  justify-content: row;
+  flex-direction: column;
   justify-content: center;
   background-color: var(--color-gray);
   height: 105vh;
@@ -27,10 +27,14 @@
 
  #light .form-input {
    color: var(--color-gray);
+   width: 22vw;
+   height: 50px;
  }
  
  #dark .form-input {
    color: var(--color-peachpuff);
+   width: 22vw;
+   height: 50px;
  }
 
 .logp-h1 {
@@ -43,23 +47,37 @@
 
 .login-form {
   position: relative;
-  top: 3vh;
+  top: -10vh;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   width: 50vw;
-  height: 90%;
+  height: 30vh;
   gap: 10px;
   
 }
 
 .form-input {
    color: red;
+   width: 10vw;
+}
+
+
+.sign-up-page-illustration-container {
+  position: relative;
+
+  
+}
+
+.login-illustration-1{
+  position: relative;
+  top: -18vh;
+  width: 35vw;
 }
 
 .btn-login {
   position: relative;
-  top: 3vh;
+  top: 10px;
   background-color: var(--color-mediumslateblue);
   color: #fff;
   width: 200px;
@@ -95,14 +113,64 @@
 }
 
 
+
+
+
 /* <------------------------------> */
 
 /* Responsive section */
 
 @media (max-width: 2000px) {
+
+  .login-illustration-1{
+
+    width: 40vw;
+  }
+}
+
+
+@media (max-width: 1700px) {
+
+  .login-form {
+    
+    top: -12vh;
+    
+    
+  }
+}
+
+@media (max-width: 1400px) {
+
+  #light .form-input {
+
+    width: 27vw;
+  }
+  
+  #dark .form-input {
+
+    width: 27vw;
+  }
+  
 }
 
 @media (max-width: 1200px) {
+
+  #light .form-input {
+
+    width: 30vw;
+  }
+  
+  #dark .form-input {
+
+    width: 30vw;
+  }
+
+
+  .login-illustration-1{
+
+    width: 45vw;
+  }
+  
   
 }
 
@@ -110,6 +178,16 @@
 }
 
 @media (max-width: 960px) {
+
+  #light .form-input {
+
+    width: 33vw;
+  }
+  
+  #dark .form-input {
+
+    width: 33vw;
+  }
 }
 
 @media (max-width: 768px) {
