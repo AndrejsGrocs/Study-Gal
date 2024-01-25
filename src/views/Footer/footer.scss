@@ -24,32 +24,40 @@
   cursor: pointer;
 }
 
-.footer-logo-a {
-  height: 5vh;
+.footer-logo-section{
   position: relative;
-  top: 15px;
-  left: 10vw;
-  width: 0.5vw;
-  border: 1px solid green;
+  right: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 15vw;
+  
 }
+
 
 .a-link {
   position: relative;
-  left: 10vw;
-  height: 10px;
-  border: 1px solid red;
+ 
+
 }
+
+
 
 .footer-container {
   position: relative;
+  width: 83vw;
+  left: 17vw;
   display: flex;
   flex-direction: row;
-  margin-left: 17vw;
+
   gap: 0.5vw;
 }
 
 .footer-card {
-  width: 20%;
+  width: 18vw;
+
 }
 
 .footer-card-h1 {
@@ -68,12 +76,12 @@
 
 .footer-logo {
   position: relative;
-  width: 5vw;
+  width: 5.6vw;
 }
 
 .footer-logo-light {
   position: relative;
-  width: 5vw;
+  width: 5.6vw;
 }
 
 #light .footer-logo {
@@ -84,15 +92,11 @@
   display: none;
 }
 
-.react-logo-container {
-  width: 0px;
-  height: 0px;
-}
+
 
 .react-logo {
   position: relative;
-  left: 20vw;
-  bottom: 5.5vh;
+
 
   height: 5.5vh;
   animation-name: rotate;
@@ -120,15 +124,36 @@
 /* Responsive section */
 
 @media (max-width: 2000px) {
+
+
+
+}
+
+@media (max-width: 1400px) {
+
+
+
+
 }
 
 @media (max-width: 1200px) {
   .react-logo {
-    left: 21vw;
-    bottom: 4vh;
 
-    height: 4.5vh;
+
+    height: 4vh;
   }
+
+
+
+.footer-logo {
+  position: relative;
+  width: 5.6vw;
+}
+
+.footer-logo-light {
+  position: relative;
+  width: 5.2vw;
+}
 
   .footer-card-h1 {
     color: var(--color-peachpuff);
@@ -144,19 +169,42 @@
 }
 
 @media (max-width: 1024px) {
-  .react-logo {
-    bottom: 4vh;
 
-    height: 4vh;
-  }
+
+
 }
 
 @media (max-width: 960px) {
   .react-logo {
-    bottom: 3.8vh;
+
 
     height: 3.5vh;
   }
+
+  .footer-card {
+    width: 16vw;
+  }
+
+
+  .footer-logo-section{
+  
+    right: -2vw;
+
+    width: 15vw;
+    
+  }
+
+  .footer-logo {
+  
+    width: 7vw;
+  }
+  
+  .footer-logo-light {
+   
+    width: 7vw;
+  }
+
+
 }
 
 @media (max-width: 768px) {
@@ -169,32 +217,28 @@
   }
 
   .react-logo {
-    bottom: 2.8vh;
+
 
     height: 3vh;
   }
 }
 
-.footer-card {
-  width: 22%;
-}
 
-.a-link {
-  top: 2vh;
-}
+
+
 
 @media (max-width: 600px) {
 
-  .a-link {
-    top: 3vh; 
-  }
-  .footer-logo {
-    top: -5px;
+  .footer-logo-section{
+  
+    right: -3vw;
+
+    width: 17vw;
+    
   }
 
-  .footer-logo-light {
-    top: -5px;
-  }
+
+
 }
 
 @media (max-width: 535px) {
@@ -205,20 +249,27 @@
 
 @media (max-width: 480px) {
   .footer-container {
-    margin-left: 20vw;
+    left: 25vw;
+    width: 75vw;
+
+
+ 
+    
     gap: 0.5vw;
   }
 
+
+
   .footer-logo {
-    width: 10vw;
+    width: 12vw;
   }
 
   .footer-logo-light {
-    width: 10vw;
+    width: 12vw;
   }
 
   .footer-card {
-    width: 25%;
+    width: 30vw;
   }
 
   .footer-card-h1 {
@@ -231,18 +282,36 @@
     font-size: 0.4rem;
   }
 
+  
+.footer-logo-section{
+
+  right: 41vw;
+
+  width: 45vw;
+  
+}
+
   .react-logo {
-    bottom: 2.8vh;
-    left: -22vw;
+
+   
 
     height: 3vh;
   }
 
-  .a-link {
-    position: relative;
-    top: 2vh;
-    left: -25vw;
-    border: 1px solid red;
+
+}
+
+
+@media (max-width: 400px) {
+
+  .footer-card-h1 {
+    top: 50px;
+    font-size: 0.4rem;
+  }
+
+  .footer-card-text {
+    top: 50px;
+    font-size: 0.3rem;
   }
 }
 
