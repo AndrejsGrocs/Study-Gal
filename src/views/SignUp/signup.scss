@@ -1,83 +1,78 @@
-.sign-up-page-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: var(--color-gray);
-    height: 160vh;
-
+.sign-up-page-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--color-gray);
+  height: 160vh;
 }
 
 #light .sign-up-page-body {
-   background-color: var(--color-peachpuff);
- }
- 
- #dark .sign-up-page-body {
-   background-color: var(--color-gray);
- }
+  background-color: var(--color-peachpuff);
+}
 
- #light .form-input{
-   background-color: var(--color-peachpuff);
-   border: 1px solid var(--color-gray);
- }
- 
- #dark .form-input {
-   background-color: var(--color-gray);
- }
+#dark .sign-up-page-body {
+  background-color: var(--color-gray);
+}
 
+#light .form-input {
+  background-color: var(--color-peachpuff);
+  border: 1px solid var(--color-gray);
+}
 
- .p3-h1{
-    margin-top: 100px; 
-    color: #fff;
- }
+#dark .form-input {
+  background-color: var(--color-gray);
+}
 
- .sign-up-form{
-    position: relative;
-    top: -5vh;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 50vw;
-    height: 90%;
-    gap: 10px;
- }
+.p3-h1 {
+  margin-top: 100px;
+  color: #fff;
+}
 
- .sup-h1{
-    color: var(--color-tomato);
-    font-size: 1rem;
-    margin: 0 auto;
+.sign-up-form {
+  position: relative;
+  top: -5vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 50vw;
+  height: 1500px;
+  gap: 10px;
+}
 
- }
+.sup-h1 {
+  color: var(--color-tomato);
+  font-size: 1rem;
+  margin: 0 auto;
+}
 
- .form-input{
-    width: 20vw;
-    height: 50px;
-    margin: 0 auto;
-    background-color: var(--color-gray);
-    border: 1px solid var(--color-peachpuff);
-    border-radius: 30px;
- }
+.form-input {
+  width: 20vw;
+  height: 50px;
+  margin: 0 auto;
+  background-color: var(--color-gray);
+  border: 1px solid var(--color-peachpuff);
+  border-radius: 30px;
+}
 
- .btn-send{
-    position: relative;
-    top: 3vh;
-    background-color: var(--color-tomato);
-    color: #fff;
-    width: 200px;
-    height: 50px;
-    text-decoration: none;
-    margin: 0 auto;
-    font-size: 0.7rem;
-    border-radius: 0.25rem;
-    border: 1px solid transparent;
-    cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-    font-weight: 300;
-    padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
-    transition: all 250ms;
+.btn-send {
+  position: relative;
+  top: 3vh;
+  background-color: var(--color-tomato);
+  color: #fff;
+  width: 10vw;
+  height: 50px;
+  text-decoration: none;
+  margin: 0 auto;
+  font-size: 0.7rem;
+  border-radius: 0.25rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  font-weight: 300;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  transition: all 250ms;
+}
 
- }
-
- 
 .btn-send:hover,
 .btn-send:focus {
   background-color: #ff6c6c;
@@ -94,59 +89,67 @@
   transform: translateY(0);
 }
 
+.form-bottom-text {
+  position: relative;
+  top: 3vh;
+  color: var(--color-tomato);
+  font-size: 1rem;
+  margin: 0 auto;
+}
 
- .form-bottom-text{
-    position: relative;
-    top: 3vh;
-    color: var(--color-tomato);
-    font-size: 1rem;
-    margin: 0 auto;
- }
+.sign-up-page-illustration-container {
+  position: relative;
+  top: 10vh;
+  height: 40vh;
+  margin: 0 auto;
+}
 
- .sign-up-page-illustration-container{
-    position: relative;
-    top: 10vh;
-    margin: 0 auto;
-  
-    
+.form-input[type="text"] {
+  padding: 0px 1vw;
+}
 
- }
+.form-input[type="email"] {
+  padding: 0px 1vw;
+}
 
+.form-input[type="password"] {
+  padding: 0px 1vw;
+}
 
+.form-input[type="date"] {
+  padding: 0px 1vw;
+}
 
- .form-input[type="text"] {
-   padding: 0px 1vw;
- }
-
- .form-input[type="email"] {
-   padding: 0px 1vw;
- }
- 
- .form-input[type="password"] {
-   padding: 0px 1vw;
- }
-
- .form-input[type="date"] {
-   padding: 0px 1vw;
- }
-
- 
-
- /* <------------------------------> */
+/* <------------------------------> */
 
 /* Responsive section */
 
 @media (max-width: 2000px) {
+  .sign-up-page-illustration-container {
+    height: 30vh;
+  }
+}
+
+@media (max-width: 1400px) {
+  .sign-up-page-illustration-container {
+    height: 20vh;
+  }
 }
 
 @media (max-width: 1200px) {
-  
 }
 
 @media (max-width: 1024px) {
 }
 
 @media (max-width: 960px) {
+  .sign-up-page-illustration-container {
+    height: 10vh;
+  }
+
+  .form-bottom-text {
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -191,5 +194,3 @@
 
 @media (max-height: 200px) {
 }
-
- 
