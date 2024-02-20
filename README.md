@@ -18,4 +18,11 @@ The project is extracted to React project from Adobe XD using the Locofy technol
 
 ```
 
+ © Andrejs Grocs
+
+ © Illustrations Natalia Maca
+
+ 2023/2024
+
+
 

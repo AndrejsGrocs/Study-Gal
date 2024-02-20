@@ -28,12 +28,14 @@
   color: var(--color-gray);
   width: 22vw;
   height: 50px;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
 }
 
 #dark .form-input {
   color: var(--color-peachpuff);
   width: 22vw;
   height: 50px;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
 }
 
 .logp-h1 {
@@ -184,6 +186,10 @@
   .logp-h1 {
     font-size: 0.9rem;
   }
+
+  .btn-login {
+    width: 100px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -197,6 +203,11 @@
 
   .login-illustration-1 {
     top: -20vh;
+    width: 56vw;
+  }
+
+  .btn-login {
+    height: 40px;
   }
 
   #light .form-input {
@@ -209,6 +220,19 @@
 }
 
 @media (max-width: 600px) {
+  .logp-h1 {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 535px) {
+  #light .form-input {
+    width: 40vw;
+  }
+
+  #dark .form-input {
+    width: 40vw;
+  }
 }
 
 @media (max-width: 480px) {
@@ -217,15 +241,57 @@
   }
 
   .login-form {
-    top: -10vh;
+    top: -15vh;
   }
 
   .login-illustration-1 {
-    top: -15vh;
+    top: -20vh;
+  }
+
+  .btn-login {
+    font-size: 0.6rem;
+    width: 90px;
+    height: 37px;
+    padding: calc(0.875rem - 1.5px) calc(1.5rem - 1px);
+  }
+}
+
+@media (max-width: 400px) {
+
+  .login-page-body {
+    height: 65vh;
+  }
+  .logp-h1 {
+    font-size: 0.7rem;
+  }
+
+  #light .form-input {
+    width: 50vw;
+  }
+
+  #dark .form-input {
+    width: 50vw;
+  }
+
+  .login-illustration-1 {
+    top: -20vh;
+    width: 60vw;
   }
 }
 
 @media (max-width: 320px) {
+
+  .logp-h1 {
+    font-size: 0.6rem;
+  }
+
+
+  .btn-login {
+    font-size: 0.6rem;
+    width: 80px;
+    height: 35px;
+    padding: calc(0.875rem - 2.5px) calc(1.5rem - 1px);
+  }
 }
 
 @media (max-width: 200px) {
