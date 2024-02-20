@@ -151,6 +151,10 @@
   .form-bottom-text {
     font-size: 0.9rem;
   }
+
+  .sup-h1 {
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -160,6 +164,9 @@
 }
 
 @media (max-width: 600px) {
+  .form-bottom-text {
+    font-size: 0.8rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -173,9 +180,16 @@
 }
 
 @media (max-width: 400px) {
+  .form-bottom-text {
+    font-size: 0.7rem;
+  }
 }
 
 @media (max-width: 320px) {
+  .form-bottom-text {
+    font-size: 0.6rem;
+  }
+
   .form-bottom-text {
     font-size: 0.5rem;
   }
