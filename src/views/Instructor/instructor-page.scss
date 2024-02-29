@@ -1,67 +1,123 @@
-.instructor-page-body{
-    display: flex;
-    justify-content: row;
-    justify-content: center;
-    background-color: var(--color-gray);
-    height: 100vh;
+.instructor-page-body {
+  display: flex;
+  justify-content: row;
+  justify-content: center;
+  background-color: var(--color-gray);
+  height: 100vh;
 }
 
-#light .instructor-page-body{
-    background-color: var(--color-peachpuff);
+#light .instructor-page-body {
+  background-color: var(--color-peachpuff);
 }
 
-#dark .instructor-page-body{
-    background-color: var(--color-gray);
-  }
-
-.p1-h1{
-   margin-top: 200px;
-   color: #ffffff;
+#dark .instructor-page-body {
+  background-color: var(--color-gray);
 }
 
-.btn-1{
-    height: 20px;
+.p1-h1 {
+  margin-top: 200px;
+  color: #ffffff;
 }
 
-.instructor-page-menu{
-    position: relative;
-    top: 50px;
-    right: 1vw;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    list-style: none;
-    width: 350px;
-    
-    
-    font-size: 25px;
-    z-index: 3;
-   
-
+.btn-1 {
+  height: 20px;
 }
 
-.menu-item{
-    color: var(--color-peachpuff);
-    cursor: pointer;
+.instructor-page-menu {
+  position: relative;
+  top: 50px;
+  right: 1vw;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style: none;
+  width: 350px;
+
+  font-size: 25px;
+  z-index: 3;
 }
 
-
-
-
-#light .instructor-card-title{
-    color: var(--color-gray);
+.menu-item {
+  color: var(--color-peachpuff);
+  cursor: pointer;
 }
 
-
-#light .add-card-2-p-1{
-    color: var(--color-gray);
-
+#light .instructor-card-title {
+  color: var(--color-gray);
 }
 
-#light .add-card-2-p-2{
-    color: var(--color-gray);
-
+#light .add-card-2-p-1 {
+  color: var(--color-gray);
 }
 
+#light .add-card-2-p-2 {
+  color: var(--color-gray);
+}
 
+/* <------------------------------> */
 
+/* Responsive section */
+
+@media (max-width: 2000px) {
+}
+
+@media (max-width: 1700px) {
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 960px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 600px) {
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 400px) {
+}
+
+@media (max-width: 320px) {
+}
+
+@media (max-width: 200px) {
+}
+
+/* <------------------------------> */
+
+/* Height Responsiveness */
+
+@media (max-height: 3000px) {
+}
+
+@media (max-height: 2000px) {
+}
+
+@media (max-height: 1000px) {
+}
+
+@media (max-height: 900px) {
+}
+
+@media (max-height: 600px) {
+}
+
+@media (max-height: 400px) {
+}
+
+@media (max-height: 300px) {
+}
+
+@media (max-height: 200px) {
+}
