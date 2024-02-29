@@ -131,6 +131,14 @@
   }
 }
 
+@media (max-width: 1700px) {
+
+  .sign-up-page-body {
+    height: 140vh;
+  }
+
+}
+
 @media (max-width: 1400px) {
   .sign-up-page-illustration-container {
     height: 20vh;
@@ -138,12 +146,21 @@
 }
 
 @media (max-width: 1200px) {
+
+  .sign-up-page-body {
+    height: 130vh;
+  }
 }
 
 @media (max-width: 1024px) {
 }
 
 @media (max-width: 960px) {
+
+  .sign-up-page-body {
+    height: 120vh;
+  }
+
   .sign-up-page-illustration-container {
     height: 10vh;
   }
@@ -155,21 +172,53 @@
   .sup-h1 {
     font-size: 0.9rem;
   }
+
+  .btn-send {
+    width: 100px;
+ 
+  }
 }
 
 @media (max-width: 768px) {
+
+  .sign-up-page-body {
+    height: 108vh;
+  }
+
   .form-bottom-text {
     font-size: 0.75rem;
+  }
+
+  .btn-send {
+    
+    height: 40px;
+    font-size: 0.6rem;
+    padding: calc(0.875rem - 4.5px) calc(1.5rem - 1px);
+ 
   }
 }
 
 @media (max-width: 600px) {
+
+  .sign-up-page-body {
+    height: 100vh;
+  }
+
   .form-bottom-text {
+    font-size: 0.8rem;
+  }
+
+  .sup-h1 {
     font-size: 0.8rem;
   }
 }
 
 @media (max-width: 480px) {
+
+  .sign-up-page-body {
+    height: 95vh;
+  }
+
   .form-input {
     font-size: 0.7rem;
   }
@@ -183,15 +232,36 @@
   .form-bottom-text {
     font-size: 0.7rem;
   }
+
+  .sup-h1 {
+    font-size: 0.7rem;
+  }
 }
 
 @media (max-width: 320px) {
+
+  .sign-up-page-body {
+    height: 108vh;
+  }
+
   .form-bottom-text {
     font-size: 0.6rem;
   }
 
   .form-bottom-text {
     font-size: 0.5rem;
+  }
+
+  .btn-send {
+    width: 80px;
+    height: 35px;
+    font-size: 0.5rem;
+    padding: calc(0.875rem - 5.6px) calc(1.5rem - 4px);
+ 
+  }
+
+  .sup-h1 {
+    font-size: 0.6rem;
   }
 }
 
