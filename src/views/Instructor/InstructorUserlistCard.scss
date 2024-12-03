@@ -1,54 +1,52 @@
-
-
-.userlist-card-content{
-    position: relative;
-    top: 20px;
-    left: 1vw;
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    width: 400px;
-    text-align: right;
- 
+.userlist-card-content {
+  position: relative;
+  top: 20px;
+  left: 1vw;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  width: 400px;
+  text-align: right;
 }
 
-.students-name{
-    font-size: 14px;
-    font-weight: 100;
-    color: var(--color-lightseagreen);
-    width: 150px;
- 
-
+.students-name {
+  font-size: 14px;
+  font-weight: 100;
+  color: var(--color-lightseagreen);
+  width: 150px;
 }
 
-.students-subscription{
-    position: relative;
-    right: 50px;
-    font-size: 14px;
-    font-weight: 100;
-    color: var(--color-peachpuff);
-    width: 100px;
- 
-
+.students-subscription {
+  position: relative;
+  right: 50px;
+  font-size: 14px;
+  font-weight: 100;
+  color: var(--color-peachpuff);
+  width: 100px;
 }
 
-#light .students-subscription{
-    color: var(--color-gray);
-
+#light .students-subscription {
+  color: var(--color-gray);
 }
-
 
 /* <------------------------------> */
 
 /* Responsive section */
 
 @media (max-width: 2000px) {
+  .userlist-card-content {
+    width: 300px;
+  }
 }
 
 @media (max-width: 1700px) {
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1450px) {
+  .userlist-card-content {
+    top: 20px;
+    left: -1vw;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -105,5 +103,3 @@
 
 @media (max-height: 200px) {
 }
-
-
