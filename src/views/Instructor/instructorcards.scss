@@ -48,7 +48,7 @@
   margin: 0 auto;
 }
 
-.additional-cards{
+.additional-cards {
   display: flex;
   flex-direction: row;
   position: relative;
@@ -56,7 +56,7 @@
   gap: 15px;
 }
 
-.additional-card-0{
+.additional-card-0 {
   position: relative;
   top: 15px;
   width: 336px;
@@ -64,33 +64,31 @@
   border-radius: 30px;
   box-shadow: 10px 10px 13px #0000004d;
   text-align: center;
-
 }
 
-.additional-card-0-content{
+.additional-card-0-content {
   position: relative;
   top: 1vh;
   text-align: center;
 }
 
-.additional-card-1{
+.additional-card-1 {
   position: relative;
   top: 10px;
   width: 336px;
   height: 185px;
   border-radius: 30px;
   box-shadow: 10px 10px 13px #0000004d;
-
 }
 
-.additional-card-1-img{
+.additional-card-1-img {
   position: relative;
   top: -2vh;
   right: 1vw;
   height: 200px;
 }
 
-.add-card-1-store-icons-container{
+.add-card-1-store-icons-container {
   position: relative;
   top: -170px;
   left: 170px;
@@ -99,10 +97,9 @@
   gap: 10px;
   width: 5vw;
   z-index: 3;
-
 }
 
-.add-card-1-store-icons-h1{
+.add-card-1-store-icons-h1 {
   position: relative;
   left: 30px;
   color: var(--color-mediumslateblue);
@@ -110,35 +107,30 @@
   font-size: 16px;
   font-weight: 200;
   text-align: left;
-
 }
 
-.add-card-1-google-play-button-image{
+.add-card-1-google-play-button-image {
   position: relative;
   left: 30px;
   width: 4.5vw;
   z-index: 2;
-
 }
 
-.add-card-1-app-store-button-image{
+.add-card-1-app-store-button-image {
   position: relative;
   left: 30px;
   width: 4.5vw;
   z-index: 2;
-
 }
 
-.icon-card-position{
+.icon-card-position {
   position: relative;
   left: 30px;
   width: 4.5vw;
   z-index: 2;
-
 }
 
-
-.additional-card-2{
+.additional-card-2 {
   position: relative;
   top: 10px;
   width: 336px;
@@ -146,10 +138,9 @@
   border-radius: 30px;
   box-shadow: 10px 10px 13px #0000004d;
   text-align: center;
-
 }
 
-.add-card-2-p-1{
+.add-card-2-p-1 {
   position: relative;
   top: 2vh;
   width: 80%;
@@ -159,7 +150,7 @@
   text-align: center;
 }
 
-.add-card-2-p-2{
+.add-card-2-p-2 {
   position: relative;
   top: 3vh;
   width: 80%;
@@ -167,10 +158,9 @@
   color: var(--color-peachpuff);
   margin: 0 auto;
   text-align: center;
-
 }
 
-.add-card-2-btn{
+.add-card-2-btn {
   position: relative;
   top: 4.5vh;
   width: 172px;
@@ -178,27 +168,23 @@
   color: var(--color-white);
   background-color: var(--color-lightseagreen);
   border-radius: 10px;
-  
-
 }
 
-#dark .add-card-1-google-play-button-image{
-    display: none;
+#dark .add-card-1-google-play-button-image {
+  display: none;
 }
 
-#dark .add-card-1-app-store-button-image{
-    display: none;
+#dark .add-card-1-app-store-button-image {
+  display: none;
 }
 
-#light .add-card-1-google-play-button-image-dark{
-    display: none;
+#light .add-card-1-google-play-button-image-dark {
+  display: none;
 }
 
-#light .add-card-1-app-store-button-image-dark{
-    display: none;
+#light .add-card-1-app-store-button-image-dark {
+  display: none;
 }
-
-
 
 /* <------------------------------> */
 
@@ -207,7 +193,44 @@
 @media (max-width: 2000px) {
 }
 
-@media (max-width: 1700px) {
+@media (max-width: 1750px) {
+  .instructor-card {
+    width: 320px;
+  }
+
+  .additional-card-1 {
+    width: 320px;
+  }
+
+  .additional-card-0 {
+    width: 320px;
+  }
+
+  .additional-card-2 {
+
+    width: 320px;
+
+  }
+}
+
+@media (max-width: 1660px) {
+  .instructor-card {
+    width: 280px;
+  }
+
+  .additional-card-1 {
+    width: 280px;
+  }
+
+  .additional-card-0 {
+    width: 280px;
+  }
+
+  .additional-card-2 {
+
+    width: 280px;
+
+  }
 }
 
 @media (max-width: 1400px) {
@@ -267,8 +290,3 @@
 
 @media (max-height: 200px) {
 }
-
-
-
-
-
