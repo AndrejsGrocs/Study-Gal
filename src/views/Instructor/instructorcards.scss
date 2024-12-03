@@ -74,7 +74,7 @@
 
 .additional-card-1 {
   position: relative;
-  top: 10px;
+  top: 20px;
   width: 336px;
   height: 185px;
   border-radius: 30px;
@@ -132,7 +132,7 @@
 
 .additional-card-2 {
   position: relative;
-  top: 10px;
+  top: 20px;
   width: 336px;
   height: 185px;
   border-radius: 30px;
@@ -194,6 +194,9 @@
 }
 
 @media (max-width: 1750px) {
+  .cards-section {
+    right: -2vw;
+  }
   .instructor-card {
     width: 320px;
   }
@@ -207,9 +210,7 @@
   }
 
   .additional-card-2 {
-
     width: 320px;
-
   }
 }
 
@@ -227,16 +228,104 @@
   }
 
   .additional-card-2 {
-
     width: 280px;
+  }
 
+  .additional-card-1-img {
+    position: relative;
+    top: -2vh;
+    right: 1vw;
+    height: 180px;
+  }
+
+  .add-card-1-store-icons-container {
+    top: -150px;
+    left: 140px;
+  }
+
+  .instructor-card-amount {
+    font-size: 50px;
   }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1450px) {
+  .instructor-card {
+    width: 250px;
+  }
+
+  .additional-card-1 {
+    width: 250px;
+  }
+
+  .additional-card-0 {
+    width: 250px;
+  }
+
+  .additional-card-2 {
+    width: 250px;
+  }
+
+  .cards-section {
+    right: -5vw;
+  }
+
+  .additional-card-1-img {
+    top: 0vh;
+
+    height: 150px;
+  }
+
+  .add-card-1-store-icons-container {
+    top: -120px;
+    left: 109px;
+  }
+
+  .add-card-2-p-1 {
+    position: relative;
+    top: 3vh;
+    width: 80%;
+    font-size: 12px;
+  }
+
+  .add-card-2-p-2 {
+    position: relative;
+    top: 4vh;
+    width: 80%;
+    font-size: 12px;
+  }
+
+  .add-card-2-btn {
+    font-size: 10px;
+    top: 5.5vh;
+    width: 160px;
+    height: 37px;
+  }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1350px) {
+  .cards-section {
+    right: 1vw;
+  }
+
+  .instructor-card {
+    width: 230px;
+  }
+
+  .additional-card-1 {
+    width: 230px;
+  }
+
+  .additional-card-0 {
+    width: 230px;
+  }
+
+  .additional-card-2 {
+    width: 230px;
+  }
+
+  .instructor-card-amount {
+    font-size: 45px;
+  }
 }
 
 @media (max-width: 1024px) {
