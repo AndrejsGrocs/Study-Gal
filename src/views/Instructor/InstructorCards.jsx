@@ -16,7 +16,7 @@ function InstructorCards(props) {
       <div className="instructor-card">
       <div className="instructor-card-content">
         {/* <button onClick={()=>log()}>Log</button> */}
-        <h2 className="instructor-card-title">{idata.name}</h2>
+        <h2 className="instructor-card-title-1">{idata.name}</h2>
         <p className="instructor-card-amount" >{idata.amount}</p>
         <p className="instructor-card-increase" >{idata.increase} % last month</p>
 

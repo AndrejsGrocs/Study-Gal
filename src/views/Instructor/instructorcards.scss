@@ -27,10 +27,10 @@
   gap: 1vh;
 }
 
-.instructor-card-title {
-  font-size: 14px;
+.instructor-card-title-1{
+  font-size: 16px;
   font-weight: 100;
-  color: var(--color-peachpuff);
+  color: var( --color-gray);
   margin: 0 auto;
 }
 
@@ -232,9 +232,9 @@
   }
 
   .additional-card-1-img {
-    position: relative;
+ 
     top: -2vh;
-    right: 1vw;
+  
     height: 180px;
   }
 
@@ -281,17 +281,17 @@
   }
 
   .add-card-2-p-1 {
-    position: relative;
+   
     top: 3vh;
-    width: 80%;
+  
     font-size: 12px;
   }
 
   .add-card-2-p-2 {
-    position: relative;
+
     top: 4vh;
-    width: 80%;
-    font-size: 12px;
+
+    font-size: 13px;
   }
 
   .add-card-2-btn {
@@ -300,13 +300,16 @@
     width: 160px;
     height: 37px;
   }
+  .add-card-1-store-icons-h1 {
+
+    font-size: 12px;
+   
+  }
 }
 
 @media (max-width: 1350px) {
   .cards-section {
     right: 1vw;
-
-
   }
 
   .instructor-card {
@@ -330,7 +333,51 @@
   }
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1200px) {
+  .cards-section {
+    right: 1vw;
+  }
+
+  .additional-cards {
+   
+    top: -25vh;
+    gap: 15px;
+  }
+
+  .instructor-card {
+    width: 180px;
+    height: 140px;
+  }
+
+  .additional-card-1 {
+    width: 180px;
+    
+  }
+
+  .additional-card-0 {
+    width: 180px;
+    
+  }
+
+  .additional-card-2 {
+    width: 180px;
+   
+  }
+
+  .instructor-card-amount {
+    font-size: 35px;
+  }
+
+  .instructor-card-title-1 {
+    font-size: 12px;
+ 
+  }
+
+  .instructor-card-increase {
+ 
+    font-size: 12px;
+
+  }
 }
 
 @media (max-width: 1250px) {
