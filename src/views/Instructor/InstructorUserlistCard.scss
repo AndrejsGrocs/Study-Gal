@@ -33,6 +33,12 @@
 
 /* Responsive section */
 
+@media (max-width: 3000px) {
+  .userlist-card-content {
+    width: 300px;
+  }
+}
+
 @media (max-width: 2000px) {
   .userlist-card-content {
     width: 300px;
@@ -62,10 +68,10 @@
     font-size: 11px;
   }
 
-  /* Continue here to setup the width of this component
-   it is going out of the size of the page on responsiveness */
+
 
   .userlist-card-content {
+    left: 0vw;
     width: 250px;
   }
 }
@@ -76,16 +82,18 @@
   }
 
   .students-subscription {
-    right: 80px;
-    font-size: 11px;
+    right: 33px;
+    font-size: 14px;
   }
 
+
   .students-name {
-    right: 30px;
+    right: 0;
+    font-size: 14px;
   }
 
   .userlist-card-content {
-    left: 1vw;
+
   }
 }
 
