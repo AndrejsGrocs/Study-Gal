@@ -27,10 +27,10 @@
   gap: 1vh;
 }
 
-.instructor-card-title-1{
+.instructor-card-title-1 {
   font-size: 16px;
   font-weight: 100;
-  color: var( --color-gray);
+  color: var(--color-gray);
   margin: 0 auto;
 }
 
@@ -232,9 +232,8 @@
   }
 
   .additional-card-1-img {
- 
     top: -2vh;
-  
+
     height: 180px;
   }
 
@@ -281,17 +280,15 @@
   }
 
   .add-card-2-p-1 {
-   
     top: 3vh;
-  
+
     font-size: 12px;
   }
 
   .add-card-2-p-2 {
-
     top: 4vh;
 
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .add-card-2-btn {
@@ -301,9 +298,7 @@
     height: 37px;
   }
   .add-card-1-store-icons-h1 {
-
     font-size: 12px;
-   
   }
 }
 
@@ -339,7 +334,6 @@
   }
 
   .additional-cards {
-   
     top: -20vh;
     gap: 15px;
   }
@@ -351,23 +345,15 @@
 
   .additional-card-1 {
     width: 180px;
-    
   }
 
   .additional-card-0 {
-   
- 
-      width: 180px;
-      height: 310px;
-
-    
+    width: 180px;
+    height: 310px;
   }
-
-  
 
   .additional-card-2 {
     width: 180px;
-   
   }
 
   .instructor-card-amount {
@@ -376,17 +362,35 @@
 
   .instructor-card-title-1 {
     font-size: 12px;
- 
   }
 
   .instructor-card-increase {
- 
     font-size: 12px;
+  }
+  .add-card-2-btn {
+    font-size: 10px;
 
+    width: 140px;
+    height: 34px;
+  }
+
+  .additional-card-1-img {
+    top: 3vh;
+    right: 2.5vw;
+    height: 120px;
+  }
+
+  .add-card-1-store-icons-container {
+    top: -70px;
+    left: 65px;
   }
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1000px) {
+  .instructor-card {
+    width: 180px;
+    height: 140px;
+  }
 }
 
 @media (max-width: 769px) {
