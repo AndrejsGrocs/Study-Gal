@@ -50,33 +50,43 @@
 }
 
 @media (max-width: 1200px) {
-
   .students-name {
     position: relative;
     right: 33px;
     font-size: 11px;
-    font-weight: 100;
-    color: var(--color-lightseagreen);
-    width: 150px;
   }
-  
+
   .students-subscription {
     position: relative;
     right: 100px;
     font-size: 11px;
-
   }
 
-   /* Continue here to setup the width of this component
+  /* Continue here to setup the width of this component
    it is going out of the size of the page on responsiveness */
 
   .userlist-card-content {
-    width: 260px;
-
+    width: 250px;
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1000px) {
+  .userlist-card-content {
+    width: 220px;
+  }
+
+  .students-subscription {
+    right: 80px;
+    font-size: 11px;
+  }
+
+  .students-name {
+    right: 30px;
+  }
+
+  .userlist-card-content {
+    left: 1vw;
+  }
 }
 
 @media (max-width: 960px) {
