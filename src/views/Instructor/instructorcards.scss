@@ -30,7 +30,7 @@
 .instructor-card-title-1 {
   font-size: 16px;
   font-weight: 100;
-  color: var(--color-gray);
+  color: var(--color-peachpuff);
   margin: 0 auto;
 }
 
@@ -170,6 +170,10 @@
   border-radius: 10px;
 }
 
+#light .instructor-card-title-1 {
+  color: var(--color-gray);
+}
+
 #dark .add-card-1-google-play-button-image {
   display: none;
 }
@@ -192,14 +196,10 @@
 
 @media (max-width: 3000px) {
   .cards-section {
-
-
-  
     right: 1vw;
     width: 75vw;
     height: 50vh;
   }
-  
 }
 
 /* Continue here to setup the card order breaking
@@ -207,9 +207,6 @@ on this 2350 px width*/
 
 @media (max-width: 2350px) {
   .cards-section {
-
-
-  
     right: 1vw;
     width: 56vw;
     height: 50vh;
@@ -218,11 +215,8 @@ on this 2350 px width*/
 
 @media (max-width: 2000px) {
   .cards-section {
-
-
-  
     right: 1vw;
-    width: 70vw;
+    width: 69vw;
     height: 50vh;
   }
 }
@@ -339,6 +333,7 @@ on this 2350 px width*/
 @media (max-width: 1350px) {
   .cards-section {
     right: 1vw;
+    width: 63vw;
   }
 
   .instructor-card {
@@ -409,7 +404,7 @@ on this 2350 px width*/
   }
 
   .additional-card-1-img {
-    top: 3vh;
+    top: 2vh;
     right: 2.5vw;
     height: 120px;
   }
@@ -498,14 +493,103 @@ on this 2350 px width*/
   }
 }
 
-/* Continue here to setup the width of cards
-  to be wider and displayed one by one in line
-  actually new order of cards need to be created
-  just need to think about it and find a new
-  pattern for it*/
 
-@media (max-width: 900px) {
+
+@media (max-width: 850px) {
+  .instructor-card {
+    width: 200px;
+  }
+
+  .additional-card-1 {
+    width: 200px;
+  }
+
+  .additional-card-0 {
+    left: 210px;
+    width: 200px;
+  }
+
+  .additional-card-2 {
+    right: 215px;
+    width: 200px;
+  }
+
+  .additional-card-1-img {
+    top: 2vh;
+    right: 2.5vw;
+    height: 120px;
+  }
+
+  .add-card-1-store-icons-container {
+    top: -70px;
+    left: 75px;
+  }
+
+    .instructor-card-title-1 {
+    font-size: 12px;
+  }
+
+  .instructor-card-increase {
+    font-size: 12px;
+  }
+  .add-card-2-btn {
+    font-size: 10px;
+
+    width: 140px;
+    height: 34px;
+  }
+
+  .instructor-card-amount {
+   
+    font-size: 38px;
+  }
+
+  .instructor-card-content {
+    top: 2vh;
+  }
+
+  .instructor-card-increase {
+    position: relative;
+    top: -5px;
+   
+  }
+
+  .instructor-card-title-1 {
+    position: relative;
+    top: 4px;
+    font-size: 12px;
+  }
 }
+
+/* Continue here with main width 
+cards placement, cards-width on 
+smaller screen width and on
+all responsiveness setup*/
+
+@media (max-width: 700px) {
+
+  .instructor-card {
+    width: 180px;
+  }
+
+  .additional-card-1 {
+    width: 180px;
+  }
+
+  .additional-card-0 {
+    top: -170px;
+    left: -230px;
+    width: 180px;
+  }
+
+  .additional-card-2 {
+    top: -165px;
+    right: 0px;
+    width: 180px;
+  }
+}
+
+
 
 @media (max-width: 600px) {
 }
