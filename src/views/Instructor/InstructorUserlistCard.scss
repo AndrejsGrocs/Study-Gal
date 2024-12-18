@@ -92,12 +92,26 @@
     font-size: 14px;
   }
 
-  .userlist-card-content {
 
-  }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 850px) {
+
+  .students-name {
+
+    font-size: 12px;
+  }
+
+  .students-subscription {
+   
+    font-size: 12px;
+  }
+
+  .userlist-card-content {
+    top: 40px;
+    left: 0vw;
+    width: 210px;
+  }
 }
 
 @media (max-width: 768px) {

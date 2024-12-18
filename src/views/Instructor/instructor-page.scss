@@ -59,7 +59,6 @@
 /* Responsive section */
 
 @media (max-width: 2000px) {
-  
 }
 
 @media (max-width: 1700px) {
@@ -69,10 +68,9 @@
   #light .add-card-2-p-1 {
     font-size: 12px;
   }
-  
+
   #light .add-card-2-p-2 {
     font-size: 12px;
-    
   }
 }
 
@@ -83,6 +81,23 @@
 }
 
 @media (max-width: 960px) {
+}
+
+@media (max-width: 850px) {
+  .instructor-page-menu {
+    right: 5vw;
+
+    width: 280px;
+
+    font-size: 25px;
+    z-index: 3;
+  }
+
+  .instructor-card-title {
+    top: 20px;
+    left: 10px;
+    color: var(--color-gray);
+  }
 }
 
 @media (max-width: 768px) {
