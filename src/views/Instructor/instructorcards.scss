@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   gap: 15px;
-  top: 50px;
+  top: 45px;
   right: 1vw;
   width: 60vw;
   height: 50vh;
@@ -493,8 +493,6 @@ on this 2350 px width*/
   }
 }
 
-
-
 @media (max-width: 850px) {
   .instructor-card {
     width: 200px;
@@ -525,7 +523,7 @@ on this 2350 px width*/
     left: 75px;
   }
 
-    .instructor-card-title-1 {
+  .instructor-card-title-1 {
     font-size: 12px;
   }
 
@@ -540,7 +538,6 @@ on this 2350 px width*/
   }
 
   .instructor-card-amount {
-   
     font-size: 38px;
   }
 
@@ -551,7 +548,6 @@ on this 2350 px width*/
   .instructor-card-increase {
     position: relative;
     top: -5px;
-   
   }
 
   .instructor-card-title-1 {
@@ -561,19 +557,13 @@ on this 2350 px width*/
   }
 }
 
-/* Continue here with main width 
-cards placement, cards-width on 
-smaller screen width and on
-all responsiveness setup*/
-
 @media (max-width: 700px) {
-
   .instructor-card {
-    width: 180px;
+    width: 155px;
   }
 
   .additional-card-1 {
-    width: 180px;
+    width: 155px;
   }
 
   .additional-card-0 {
@@ -585,13 +575,45 @@ all responsiveness setup*/
   .additional-card-2 {
     top: -165px;
     right: 0px;
-    width: 180px;
+    width: 155px;
   }
 }
 
+/* Continue here with main width 
+cards placement, cards-width on 
+smaller screen width and on
+all responsiveness setup*/
 
+/* Nav Menu text size smaller
+Dashboard, Courses ...*/
 
-@media (max-width: 600px) {
+@media (max-width: 620px) {
+  .cards-section {
+    right: 1vw;
+    width: 45vw;
+  }
+  .additional-cards {
+    right: 210px;
+    top: -20vh;
+  }
+
+  .instructor-card {
+    width: 190px;
+  }
+
+  .additional-card-1 {
+    width: 190px;
+  }
+
+  .additional-card-0 {
+    top: -550px;
+    left: -230px;
+    width: 190px;
+  }
+
+  .additional-card-2 {
+    width: 190px;
+  }
 }
 
 @media (max-width: 480px) {

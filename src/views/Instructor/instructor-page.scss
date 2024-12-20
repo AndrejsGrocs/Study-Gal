@@ -1,6 +1,6 @@
 .instructor-page-body {
   display: flex;
-  justify-content: row;
+
   justify-content: center;
   background-color: var(--color-gray);
   height: 100vh;
@@ -103,7 +103,14 @@
 @media (max-width: 768px) {
 }
 
-@media (max-width: 600px) {
+@media (max-width: 620px) {
+  .instructor-page-body {
+    position: relative;
+
+    top: -70px;
+    width: 100vw;
+    height: 150vh;
+  }
 }
 
 @media (max-width: 480px) {
