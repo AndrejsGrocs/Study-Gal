@@ -10,7 +10,6 @@
   font-weight: 800;
 }
 
-
 /* <------------------------------> */
 
 /* Responsive section */
@@ -33,7 +32,14 @@
 @media (max-width: 960px) {
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
+  #light .menu-item {
+    font-size: 17px;
+  }
+
+  #dark .menu-item {
+    font-size: 17px;
+  }
 }
 
 @media (max-width: 600px) {
