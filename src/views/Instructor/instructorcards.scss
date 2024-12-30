@@ -579,19 +579,10 @@ on this 2350 px width*/
   }
 }
 
-/* Continue here with main width 
-cards placement, cards-width on 
-smaller screen width and on
-all responsiveness setup
-
-740 px width cards are to wide and going
-of of the screen size
-*/
-
 @media (max-width: 620px) {
   .cards-section {
-    right: 1vw;
-    width: 45vw;
+    right: -1vw;
+    width: 41vw;
   }
   .additional-cards {
     right: 210px;
@@ -603,21 +594,62 @@ of of the screen size
   }
 
   .additional-card-1 {
+    right: 45px;
+    top: -725px;
     width: 190px;
   }
 
   .additional-card-0 {
-    top: -550px;
-    left: -230px;
+    top: -950px;
+    left: -260px;
     width: 190px;
   }
 
   .additional-card-2 {
+    right: 245px;
+    top: -500px;
     width: 190px;
   }
 }
 
-@media (max-width: 480px) {
+
+/* Continue here with main width 
+cards placement, cards-width on 
+smaller screen width and on
+all responsiveness setup
+
+Make cards smaller after max-width: 500px
+
+Needs attention:
+740 px width cards are to wide and going
+of of the screen size
+
+
+*/
+
+@media (max-width: 500px) {
+  .cards-section {
+    right: 5vw;
+    width: 41vw;
+  }
+
+  .additional-card-1 {
+    right: 0px;
+    top: -725px;
+    width: 190px;
+  }
+
+  .additional-card-0 {
+    top: -950px;
+    left: -205px;
+    width: 190px;
+  }
+
+  .additional-card-2 {
+    right: 205px;
+    top: -500px;
+    width: 190px;
+  }
 }
 
 @media (max-width: 400px) {
