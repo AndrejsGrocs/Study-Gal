@@ -612,47 +612,69 @@ on this 2350 px width*/
   }
 }
 
+@media (max-width: 500px) {
+  .cards-section {
+    right: 5vw;
+  }
+
+  .additional-card-1 {
+    right: -5px;
+    top: -715px;
+  }
+
+  .additional-card-0 {
+    left: -200px;
+  }
+
+  .additional-card-2 {
+    right: 200px;
+  }
+}
 
 /* Continue here with main width 
 cards placement, cards-width on 
 smaller screen width and on
 all responsiveness setup
 
-Make cards smaller after max-width: 500px
+Make text in cards smaller according 
+to previous 120 px height
+like on another min with
+i think 85-px
 
 Needs attention:
 740 px width cards are to wide and going
 of of the screen size
 
-
+Check for unnecessary lines in cards
+on different widths
 */
 
-@media (max-width: 500px) {
-  .cards-section {
-    right: 5vw;
-    width: 41vw;
+@media (max-width: 450px) {
+  .instructor-card {
+    height: 120px;
+    width: 155px;
   }
 
   .additional-card-1 {
-    right: 0px;
+    height: 120px;
+    right: -15px;
     top: -725px;
-    width: 190px;
+    width: 155px;
   }
 
   .additional-card-0 {
+    height: 120px;
     top: -950px;
-    left: -205px;
-    width: 190px;
+    left: -200px;
+    width: 155px;
   }
 
   .additional-card-2 {
-    right: 205px;
+    height: 120px;
+    right: 175px;
     top: -500px;
-    width: 190px;
+    width: 155px;
   }
-}
-
-@media (max-width: 400px) {
 }
 
 @media (max-width: 320px) {
