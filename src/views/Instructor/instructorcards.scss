@@ -647,33 +647,40 @@ of of the screen size
 
 Check for unnecessary lines in cards
 on different widths
+
+Pay attention to Nav width on 
+responsiveness lower than 450 px
 */
 
 @media (max-width: 450px) {
   .instructor-card {
+
     height: 120px;
-    width: 155px;
+    width: 145px;
   }
 
   .additional-card-1 {
-    height: 120px;
-    right: -15px;
-    top: -725px;
-    width: 155px;
+    right: 15px;
+    top: -615px;
   }
 
   .additional-card-0 {
-    height: 120px;
-    top: -950px;
-    left: -200px;
-    width: 155px;
+    top: -850px;
+    left: -230px;
+    height: 320px;
   }
 
   .additional-card-2 {
-    height: 120px;
-    right: 175px;
-    top: -500px;
-    width: 155px;
+    top: -400px;
+    right: 220px;
+  }
+
+  .instructor-card-amount {
+    font-size: 30px;
+  }
+
+  .instructor-card-content {
+    top: 1.5vh;
   }
 }
 

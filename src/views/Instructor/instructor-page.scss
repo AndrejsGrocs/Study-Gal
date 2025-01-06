@@ -84,12 +84,9 @@
 }
 
 @media (max-width: 850px) {
-
   .instructor-page-menu {
-   width: 300px;
-
+    width: 300px;
   }
-
 
   .instructor-card-title {
     top: 20px;
@@ -99,23 +96,18 @@
 }
 
 @media (max-width: 700px) {
-
   .instructor-page-menu {
     right: 10vw;
 
     width: 280px;
     gap: 10px;
     font-size: 25px;
-
   }
 }
 
 @media (max-width: 620px) {
-
   .instructor-page-menu {
     right: 10vw;
-
-
   }
   .instructor-page-body {
     position: relative;
@@ -126,10 +118,35 @@
   }
 }
 
-@media (max-width: 480px) {
+/* Need to fix width issue here
+page is not so wide and 
+white field is on the right side
+  .instructor-page-body 
+  need to be arranged correctly
+  to fit into responsiveness
+ 
+
+  Pay attention to Nav width on 
+  responsiveness lower than 450 px
+
+*/
+
+
+@media (max-width: 500px) {
+  .instructor-page-body {
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .instructor-page-body {
+    width: 130%;
+  }
+
 }
 
 @media (max-width: 400px) {
+
 }
 
 @media (max-width: 320px) {
