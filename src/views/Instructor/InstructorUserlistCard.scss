@@ -68,8 +68,6 @@
     font-size: 11px;
   }
 
-
-
   .userlist-card-content {
     left: 0vw;
     width: 250px;
@@ -86,24 +84,18 @@
     font-size: 14px;
   }
 
-
   .students-name {
     right: 0;
     font-size: 14px;
   }
-
-
 }
 
 @media (max-width: 850px) {
-
   .students-name {
-
     font-size: 12px;
   }
 
   .students-subscription {
-   
     font-size: 12px;
   }
 
@@ -120,7 +112,14 @@
 @media (max-width: 600px) {
 }
 
-@media (max-width: 480px) {
+@media (max-width: 450px) {
+  .students-name {
+    font-size: 11px;
+  }
+
+  .students-subscription {
+    font-size: 11px;
+  }
 }
 
 @media (max-width: 400px) {
