@@ -19,9 +19,11 @@ export default function Landing(props) {
 
 
 
-
         <div className="landing-text-and-button-container">
+        <h1 className="h1-temp">Project Respnsiveness for lower resolutions is still in progress</h1>
+
         <h1 className="lp-h1">Share your passion and help others to grow</h1>
+        
       
           <Link
                     to="/signup-page"
