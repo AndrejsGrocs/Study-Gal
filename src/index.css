@@ -43,14 +43,14 @@ body {
 }
 
 :root {
-  /* fonts */
+
   --font-poppins: Poppins;
   --font-poppins-light: Poppins-Light;
   --font-poppins-extrabold: Poppins-ExtraBold;
   --font-arial: Arial;
   --font-lato: Lato;
 
-  /* font sizes */
+
   --font-size-sm: 14px;
   --font-size-36xl: 55px;
   --font-size-5xl: 24px;
@@ -62,7 +62,6 @@ body {
   --font-size-9xs: 4px;
   --font-size-10xs: 3px;
 
-  /* Colors */
   --color-white: #fff;
   --color-gray: #151b27;
   --color-peachpuff: #fed9bc;
@@ -71,7 +70,6 @@ body {
   --color-tomato: #fe5e5e;
   --color-orchid: #f179d0;
 
-  /* border radiuses */
   --br-base: 16px;
   --br-9xs: 4px;
   --br-35xl: 54px;
