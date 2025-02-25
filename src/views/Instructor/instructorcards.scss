@@ -631,26 +631,7 @@ on this 2350 px width*/
   }
 }
 
-/* Continue here with main width 
-cards placement, cards-width on 
-smaller screen width and on
-all responsiveness setup
 
-Make text in cards smaller according 
-to previous 120 px height
-like on another min with
-i think 85-px
-
-Needs attention:
-740 px width cards are to wide and going
-of of the screen size
-
-Check for unnecessary lines in cards
-on different widthsy
-
-Pay attention to Nav width on 
-responsiveness lower than 450 px
-*/
 
 @media (max-width: 450px) {
   .instructor-card {
@@ -690,9 +671,10 @@ responsiveness lower than 450 px
 @media (max-width: 200px) {
 }
 
-/* <------------------------------> */
 
-/* Height Responsiveness */
+
+
+
 
 @media (max-height: 3000px) {
 }

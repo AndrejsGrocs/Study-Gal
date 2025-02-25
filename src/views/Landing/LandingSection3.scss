@@ -69,7 +69,7 @@
 .store-icons-h1 {
   position: relative;
   color: var(--color-mediumslateblue);
-  /* width: 10vw; */
+
   font-size: 1.5rem;
   font-weight: 900;
   text-align: left;
@@ -135,9 +135,10 @@
   display: none;
 }
 
-/* <------------------------------> */
 
-/* Responsive section */
+
+
+
 
 @media (max-width: 4000px) {
 }
@@ -147,8 +148,7 @@
     top: -660px;
   }
 
-  .store-icons-h1 {
-  }
+
 }
 
 @media (max-width: 1900px) {
@@ -424,9 +424,10 @@
 
 }
 
-/* <------------------------------> */
 
-/* Height Responsiveness */
+
+
+
 
 @media (max-height: 3000px) {
 }

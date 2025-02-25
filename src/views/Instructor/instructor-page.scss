@@ -54,9 +54,9 @@
   color: var(--color-gray);
 }
 
-/* <------------------------------> */
 
-/* Responsive section */
+
+
 
 @media (max-width: 2000px) {
 }
@@ -118,18 +118,9 @@
   }
 }
 
-/* Need to fix width issue here
-page is not so wide and 
-white field is on the right side
-  .instructor-page-body 
-  need to be arranged correctly
-  to fit into responsiveness
- 
 
-  Pay attention to Nav width on 
-  responsiveness lower than 450 px
 
-*/
+
 
 
 @media (max-width: 500px) {
@@ -155,9 +146,9 @@ white field is on the right side
 @media (max-width: 200px) {
 }
 
-/* <------------------------------> */
 
-/* Height Responsiveness */
+
+
 
 @media (max-height: 3000px) {
 }
