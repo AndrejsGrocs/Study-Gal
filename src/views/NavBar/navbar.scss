@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-/* Nav Light And Dark Mode */
+
 
 #light .nav {
   background-color: var(--color-peachpuff);
@@ -194,7 +194,7 @@ li a {
   gap: 10px;
 }
 
-// Toggle Light/Dark mode
+
 
 .wrapper {
   display: -webkit-box;
@@ -231,7 +231,7 @@ li a {
   z-index: 5;
 }
 
-/* Switch 1 Specific Styles Start */
+
 
 .box_1 {
   background: var(--color-gray);
@@ -280,9 +280,7 @@ input[type="checkbox"].switch_1:checked:after {
   background: var(--color-gray);
 }
 
-/* <------------------------------> */
 
-/* Responsive section */
 
 @media (max-width: 4000px) {
 }
@@ -539,9 +537,10 @@ input[type="checkbox"].switch_1:checked:after {
   }
 }
 
-/* <------------------------------> */
 
-/* Height Responsiveness */
+
+
+
 
 @media (max-height: 3000px) {
 }
